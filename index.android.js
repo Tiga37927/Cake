@@ -10,11 +10,12 @@ import {
     StyleSheet,
 } from 'react-native';
 
-import Cake from './src/components/Cake';
-import LayoutAnimationDemo from './src/components/LayoutAnimationDemo';
+import Cake from './src/demos/Cake';
+import LayoutAnimationDemo from './src/demos/LayoutAnimationDemo';
+import CoreComponents from './src/demos/CoreComponents'
 
 const styles = StyleSheet.create({
 
 });
 
-AppRegistry.registerComponent('Cake', () => LayoutAnimationDemo);
+AppRegistry.registerComponent('Cake', () => CoreComponents);
