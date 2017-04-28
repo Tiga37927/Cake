@@ -12,10 +12,11 @@ import {
 
 import Cake from './src/demos/Cake';
 import LayoutAnimationDemo from './src/demos/LayoutAnimationDemo';
-import CoreComponents from './src/demos/CoreComponents'
+import CoreComponents from './src/demos/CoreComponents';
+import ImageDemo from './src/demos/ImageDemo';
 
 const styles = StyleSheet.create({
 
 });
 
-AppRegistry.registerComponent('Cake', () => CoreComponents);
+AppRegistry.registerComponent('Cake', () => ImageDemo);
