@@ -7,16 +7,8 @@
 import React, { Component } from 'react';
 import {
     AppRegistry,
-    StyleSheet,
 } from 'react-native';
 
-import Cake from './src/demos/Cake';
-import LayoutAnimationDemo from './src/demos/LayoutAnimationDemo';
-import CoreComponents from './src/demos/CoreComponents';
-import ImageDemo from './src/demos/ImageDemo';
+import Main from './src/main';
 
-const styles = StyleSheet.create({
-
-});
-
-AppRegistry.registerComponent('Cake', () => ImageDemo);
+AppRegistry.registerComponent('Cake', () => Main);
