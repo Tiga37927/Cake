@@ -34,6 +34,7 @@ export default class DoubleProject extends Component {
                     badgeText="1"
                     onPress={() => this.setState({ selectedTab: 'home' })}>
                     <Navigation component={BookList}/>
+                    {/*<Text>图书</Text>*/}
                 </TabNavigator.Item>
                 <TabNavigator.Item
                     selected={this.state.selectedTab === 'profile'}

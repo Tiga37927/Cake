@@ -16,11 +16,16 @@ import PropTypes from 'prop-types';
 输入框和按钮样式
  */
 export default class SearchBar extends Component {
+    static propTypes = {
+        onPress: PropTypes.func,
+        onChangeText: PropTypes.func
+    };
     render() {
         return (
+            // onChangeText={(text) => this.props.onChangeText(text)}
             <View style={styles.container}>
                 <View style={styles.inputContainer}>
-                    <TextInput onChangeText={this.props.changeText.bind(this)} style={styles.input} {...this.props}/>
+                    <TextInput style={styles.input} {...this.props}/>
                 </View>
                 <TouchableOpacity style={styles.btn} {...this.props}>
                     <Text style={styles.search}>搜索</Text>

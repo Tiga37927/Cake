@@ -52,7 +52,7 @@ export default class BookList extends Component {
                 });
             },
             fail: function(error) {
-                alert('222rr')
+                alert(error)
             }
         };
         Util.getRequest(opt)
@@ -82,8 +82,9 @@ export default class BookList extends Component {
                 <SearchBar
                     underlineColorAndroid='transparent'
                     placeholder="请输入图书名称"
-                    onPress={this.handleSearchText()}
-                    changeText={this.handleChangeText}/>
+                    onPress={this.handleSearchText.bind(this)}
+                    onChangeText={this.handleChangeText.bind(this)}
+                    />
                 {/*请求数据时显示loading*/
                     this.state.hasLoad ?
                         <ListView
@@ -98,7 +99,8 @@ export default class BookList extends Component {
         )
     }
     _renderRow(book) {
-        return <BookItem book={book} onPress={this.handleShowDetail.bind(this, book.id)}/>
+        //onPress={this.handleShowDetail.bind(this, book.id)}
+        return <BookItem book={book}/>
     }
     _renderSeparator(sectionID:number, rowID:number) {
         let style = {

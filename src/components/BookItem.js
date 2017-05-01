@@ -9,8 +9,13 @@ import {
     StyleSheet,
     TouchableOpacity
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class BookItem extends Component {
+    static propTypes = {
+        onPress: PropTypes.func,
+        book: PropTypes.object
+    };
     render() {
         let book = this.props.book;
         return (

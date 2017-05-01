@@ -11,6 +11,10 @@ import {
 import PropTypes from 'prop-types';
 import LeftIcon from './LeftIcon';
 export default class Header extends Component {
+    static propTypes = {
+        pop: PropTypes.func,
+        headerContent: PropTypes.object
+    };
     // 返回按钮事件处理
     handlePop() {
         this.props.pop()
