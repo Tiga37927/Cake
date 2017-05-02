@@ -1,0 +1,1186 @@
+{
+	"count": 20,
+	"start": 0,
+	"total": 187,
+	"books": [{
+		"rating": {
+			"max": 10,
+			"numRaters": 103,
+			"average": "6.5",
+			"min": 0
+		},
+		"subtitle": "引领未来的用户界面开发框架",
+		"author": ["卓越开发者联盟"],
+		"pubdate": "2015-5-1",
+		"tags": [{
+			"count": 73,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 62,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 47,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 22,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 21,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 11,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 11,
+			"name": "计算机",
+			"title": "计算机"
+		}, {
+			"count": 10,
+			"name": "编程",
+			"title": "编程"
+		}],
+		"origin_title": "Developing a React Edge: The JavaScript Library for User Interfaces",
+		"image": "https://img1.doubanio.com\/mpic\/s28061237.jpg",
+		"binding": "平装",
+		"translator": ["寸志", "范洪春", "杨森", "陈涌"],
+		"catalog": "推荐序1 . . . . . . . iii\n推荐序2 . . . . . . . v\n推荐序3 . . . . . . . vii\n前言. . . . . . . . . . . ix\n第1 章React 简介. . . . . . . . . . . . . . . . . . . . . . . 1\n背景介绍1\n本书概览3\nComponent 的创建和复合3\n进阶4\nReact 工具5\nReact 实践5\n第2 章JSX . . . . 6\n什么是JSX 7\n使用JSX 的好处7\n更加熟悉7\n更加语义化8\n更加直观8\n抽象化9\n关注点分离9\n复合组件10\n定义一个自定义组件10\n使用动态值11\n子节点12\nJSX 与HTML 有何不同13\n属性13\n条件判断14\n非DOM 属性15\n事件17\n注释18\n特殊属性19\n样式19\n没有JSX 的React 19\n创建React 元素20\n简写21\n延伸阅读及参考引用21\nJSX 官方规范22\n第3 章组件的生命周期. . . . . . . . . . . . . . . . . 23\n生命周期方法23\n实例化23\n存在期24\n销毁& 清理期24\n实例化24\ngetDefaultProps 24\ngetInitialState 25\ncomponentWillMount 25\nrender 25\ncomponentDidMount 25\n存在期26\ncomponentWillReceiveProps 26\nshouldComponentUpdate 27\ncomponentWillUpdate 28\ncomponentDidUpdate 28\n销毁& 清理期28\ncomponentWillUnmount 28\n反模式：把计算后的值赋给state 28\n总结30\n第4 章数据流. 31\nProps 31\nPropTypes 33\ngetDefaultProps 33\nState 34\n放在state 和props 的各是哪些部分35\n总结35\n第5 章事件处理. . . . . . . . . . . . . . . . . . . . . . . . 36\n绑定事件处理器36\n事件和状态37\n根据状态进行渲染38\n更新状态40\n事件对象42\n总结43\n第6 章组件的复合. . . . . . . . . . . . . . . . . . . . . . 44\n扩展HTML 44\n组件复合的例子45\n组装HTML 45\n追踪状态47\n整合到父组件当中48\n父组件、子组件关系50\n总结52\n第7 章mixin . . 53\n什么是mixin 53\n总结56\n第8 章DOM 操作. . . . . . . . . . . . . . . . . . . . . . . 57\n访问受控的DOM 节点57\n整合非React 类库59\n侵入式插件61\n总结63\n第9 章表单. . . 64\n无约束的组件65\n约束组件66\n表单事件68\nLabel 68\n文本框和Select 69\n复选框和单选框71\n表单元素的name 属性73\n多个表单元素与change 处理器75\n自定义表单组件79\nFocus 83\n可用性83\n把要求传达清楚83\n不断地反馈84\n迅速响应84\n符合用户的预期84\n可访问85\n减少用户的输入85\n总结86\n第10 章动画. . 87\nCSS 渐变组87\n给渐变class 添加样式88\n渐变生命周期89\n使用渐变组的隐患89\n间隔渲染89\n使用requestAnimationFrame 实现间隔渲染90\n使用setTimeout 实现间隔渲染91\n总结92\n第11 章性能优化. . . . . . . . . . . . . . . . . . . . . . . 93\nshouldComponentUpdate 93\n不可变性辅助插件95\n深入调查拖慢你应用的部分96\n键（key） 97\n总结98\n第12 章服务端渲染. . . . . . . . . . . . . . . . . . . . . 99\n渲染函数100\nReact.renderToString 100\nReact.renderToStaticMarkup 100\n用React.renderToString 还是用React.renderToStaticMarkup 101\n服务端组件生命周期102\n设计组件102\n异步状态104\n同构路由106\n单例、实例及上下文107\n总结107\n第13 章周边类库. . . . . . . . . . . . . . . . . . . . . . . 108\nJest 108\n设置109\n自动模拟依赖109\n手动模拟依赖111\nImmutable.js 113\nFlux 114\n总结115\n第14 章开发工具. . . . . . . . . . . . . . . . . . . . . . . 116\n构建工具116\nBrowserify 117\n建立一个Browserify 项目117\n对代码做出修改118\nWatchify 119\n构建119\nWebpack 119\nWebpack 与React 120\n调试工具122\n基础工具123\n总结124\n第15 章测试. . 125\n上手125\n测试的类型126\n工具126\n第一个测试用例：render 测试127\n模拟组件132\n函数监视138\n监视函数被调用141\n模拟事件146\n测试中的组件查找器149\nmixin 测试152\n直接测试mixin 153\n把mixin 包含在虚拟组件中进行测试156\n共享行为的用例159\n渲染到<body> 中164\n服务端测试168\n浏览器自动化测试174\n启动服务器179\n总结180\n第16 章架构模式. . . . . . . . . . . . . . . . . . . . . . . 181\n路由182\nBackbone.Router 182\nAviator 183\nreact-router 185\nOm (ClojureScript) 186\nFlux 187\n数据流187\nFlux 各个部分188\nDispatcher 188\nAction 189\nStore 190\n控制视图191\n管理多个Store 192\n更新Dispatcher 192\n注册依赖行为193\n总结194\n第17 章其他使用场景. . . . . . . . . . . . . . . . . . 195\n桌面应用195\n游戏197\n电子邮件202\n绘图208\n总结210",
+		"pages": "224",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28061237.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28061237.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28061237.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26378583\/",
+		"id": "26378583",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121259362",
+		"isbn13": "9787121259364",
+		"title": "React",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26378583",
+		"alt_title": "Developing a React Edge: The JavaScript Library for User Interfaces",
+		"author_intro": "本书由一个团队编写而成，这个团队的成员都是一些经验丰富且专注于JavaScript 的开发者。\nTom Hallett 是一位高级Ruby 和JavaScript 工程师，在Tout.com 工作（Tout.com 是一个实时视频平台，办公地点在旧金山）。他是jasmine-react 的作者，jasmine-react 是一个开源的类库，旨在帮助开发者使用测试框架Jasmine 测试React 应用程序。在Twitter（@tommyhallett）和Github（@tommyh）上都可以找到他。他的爱好是打水球，以及与妻子和儿子待在一起。\nRichard Feldman 是旧金山教育科技公司NoRedInk 的前端工程师。他是一个函数式编程爱好者，会议发言人，还是seamlessimmutable的作者。seamless-immutable 是一个开源类库，可以提供不可变的数据结构，向后兼容普通的JavaScript 对象和数组。Richard 在Twitter 和Github 上都叫@rtfeldman。\nSimon H?jberg 是一个高级UI 工程师，在罗德岛普罗维登斯市的Swipely 公司工作。他是普罗维登斯市线下JS 见面会的核心组织者，之前还是波士顿创业学院的JavaScript 讲师。他一直在使用JavaScript 开发功能性的用户界面，也会开发一些像cssarrowplease.com 这样的业余项目。Simon 的Twitter 是@shojberg。\nKarl Mikkelsen 是LockedOn 的一位高级PHP 和JavaScript 工程师，工作是开发外观漂亮且功能强大的房地产软件。Karl 对新技术充满热情，喜欢学习以不同的方式做事。如果你在网上（http:\/\/karlmikko.com）找不到他，那他很可能在和妻子攀岩或者在喝咖啡。\nJon Beebe 在Dave Ramsey 的数字开发团队里开发应用，专注于一些面向用户的技术，例如Web 和iOS。在这之前，他开发过PHPWeb 服务，也为Final Cut Pro 和Motion 写过插件。他以能够把艺术和代码结合到一起为乐。他的网名是@bejonbee。他自诩是一个热衷阅读的人，喜欢摄影，并且以超出妻子的日常期望为自己的目标。\nFrankie Bagnardi 是一位高级前端工程师，为多种不同的客户端创造用户体验。在业余时间里，他会在StackOverflow（FakeRainBrigand）和IRC（GreenJello）上回答问题，或者开发一些小项目。你可以通过f.bagnardi@gmail.com 联系他。",
+		"summary": "2014 年横空出世的由Facebook 推出的开源框架React.js，基于Virtual DOM 重新定义了用户界面的开发方式，彻底革新了大家对前端框架的认识，将PHP 风格的开发方式迁移到客户端应用开发。其优势在于可以与各种类库、框架搭配使用。《React：引领未来的用户界面开发框架》是这一领域的首作，由多位一线专家精心撰写，采用一个全程实例全面介绍和剖析了ReactReact.js 的方方面面，适合广大前端开发者、设计人员，及所有对未来技术趋势感兴趣者阅读。",
+		"price": "CNY 65.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 6,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "Up & Running: Building Web Applications",
+		"author": ["Stoyan Stefanov"],
+		"pubdate": "2015-12-25",
+		"tags": [{
+			"count": 5,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 3,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 3,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 1,
+			"name": "@2016",
+			"title": "@2016"
+		}, {
+			"count": 1,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 1,
+			"name": "web",
+			"title": "web"
+		}, {
+			"count": 1,
+			"name": "mobile",
+			"title": "mobile"
+		}, {
+			"count": 1,
+			"name": "Technical",
+			"title": "Technical"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28268082.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "Chapter 1Hello World\nSetup\nHello React World\nWhat Just Happened?\nReact.DOM.*\nSpecial DOM Attributes\nReact DevTools Browser Extension\nNext: Custom Components\nChapter 2The Life of a Component\nBare Minimum\nProperties\npropTypes\nState\nA Stateful Textarea Component\nA Note on DOM Events\nProps Versus State\nProps in Initial State: An Anti-Pattern\nAccessing the Component from the Outside\nChanging Properties Mid-Flight\nLifecycle Methods\nLifecycle Example: Log It All\nLifecycle Example: Use a Mixin\nLifecycle Example: Using a Child Component\nPerformance Win: Prevent Component Updates\nPureRenderMixin\nChapter 3Excel: A Fancy Table Component\nData First\nTable Headers Loop\nDebugging the Console Warning\nAdding <td> Content\nSorting\nSorting UI Cues\nEditing Data\nSearch\nInstant Replay\nDownload the Table Data\nChapter 4JSX\nHello JSX\nTranspiling JSX\nBabel\nClient Side\nAbout the JSX transformation\nJavaScript in JSX\nWhitespace in JSX\nComments in JSX\nHTML Entities\nSpread Attributes\nReturning Multiple Nodes in JSX\nJSX Versus HTML Differences\nJSX and Forms\nExcel Component in JSX\nChapter 5Setting Up for App Development\nA Boilerplate App\nInstalling Prerequisites\nLet’s Build\nDeployment\nMoving On\nChapter 6Building an App\nWhinepad v.0.0.1\nThe Components\nApp Config\n<Excel>: New and Improved\n<Whinepad>\nWrapping It All Up\nChapter 7Lint, Flow, Test, Repeat\npackage.json\nESLint\nFlow\nTesting\nChapter 8Flux\nThe Big Idea\nAnother Look at Whinepad\nThe Store\nActions\nFlux Recap\nImmutable",
+		"pages": "250",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28268082.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28268082.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28268082.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26584308\/",
+		"id": "26584308",
+		"publisher": "O'Reilly Media",
+		"isbn10": "1491931825",
+		"isbn13": "9781491931820",
+		"title": "React",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26584308",
+		"alt_title": "",
+		"author_intro": "Stoyan Stefanov is a Facebook engineer. Previously at Yahoo, he was the creator of the smush.it online image-optimization tool and architect of the YSlow 2.0 performance tool. Stoyan is the author of JavaScript Patterns and Object-Oriented JavaScript, a contributor to Even Faster Web Sites and High-Performance JavaScript, he’s a blogger (phpied.com) and a frequent speaker at conferences including Velocity, JSConf, Fronteers, and many others.",
+		"summary": "Hit the ground running with React, the open-source technology from Facebook for building rich web applications fast. With this practical guide, Yahoo! web developer Stoyan Stefanov teaches you how to build components—React’s basic building blocks—and organize them into maintainable, large-scale apps. If you’re familiar with basic JavaScript syntax, you’re ready to get started.\nOnce you understand how React works, you’ll build a complete custom Whinepad app that helps users rate wines and keep notes. You’ll quickly learn why some developers consider React the key to the web app development puzzle.\nSet up React and write your first \"Hello world\" web app\nCreate and use custom React components alongside generic DOM components\nBuild a data table component that lets you edit, sort, search, and export its contents\nUse the JSX syntax extension as an alternative to function calls\nSet up a lean, low-level build process that helps you focus on React\nBuild a complete custom app that lets you store data on the client\nUse ESLint, Flow, and Jest tools to check and test your code as your app evolves\nManage communication between components with Flux",
+		"price": "USD 39.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 42,
+			"average": "7.7",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["陈屹"],
+		"pubdate": "2016-11-1",
+		"tags": [{
+			"count": 49,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 28,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 24,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 7,
+			"name": "技术",
+			"title": "技术"
+		}, {
+			"count": 6,
+			"name": "javascript",
+			"title": "javascript"
+		}, {
+			"count": 6,
+			"name": "Web开发",
+			"title": "Web开发"
+		}, {
+			"count": 4,
+			"name": "编程",
+			"title": "编程"
+		}, {
+			"count": 2,
+			"name": "前端",
+			"title": "前端"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29162154.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "",
+		"pages": "351",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29162154.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29162154.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29162154.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26918038\/",
+		"id": "26918038",
+		"publisher": "人民邮电出版社",
+		"isbn10": "7115437300",
+		"isbn13": "9787115437303",
+		"title": "深入react 技术栈",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26918038",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "全面讲述React技术栈的第一本原创图书，pure render专栏主创倾力打造\n覆盖React、Flux、Redux及可视化，帮助开发者在实践中深入理解技术和源码\n前端组件化主流解决方案，一本书玩转React“全家桶”\n本书讲解了非常多的内容，不仅介绍了面向普通用户的API、应用架构和周边工具，还深入介绍了底层实现。此外，本书非常重视实战，每一节都有实际的例子，细节丰富。我从这本书里学到了很多东西，强烈推荐！\n——阮一峰，蚂蚁金服技术专家，国内技术圈知名博主，《ES 6标准入门（第2版）》作者\nReact从诞生起就颠覆了诸多传统前端开发的“铁律”，这种破旧立新开启了前端开发全新的时代。它的用法和理念，代表了现在和未来几年前端技术的潮流风向。如果不想落伍，最好进行系统学习。实践出真知，从牛人的实践中收获自己的真知，恐怕是最好的捷径。这是我看到的第一本React中文原创著作，读来倍感亲切。\n——张克军，豆瓣前端专家，国内技术圈知名博主，前端布道师\n本书内容翔实，一扫“文档说明书”之风，有大量作者的实战经验。由浅入深，无论你是 React 初学者，还是进阶人士，本书都值得一读！\n——寸志，陆金所前端架构师，《前端外刊评论》发起人\n本书从几个维度去介绍 React。一是作为 View 库，它怎么实现组件化，以及它背后的实现原理。二是扩展到 Flux 应用架构及重要的衍生品 Redux，它们怎么与 React 结合做应用开发。三是对 React 与 server 的碰撞产生的一些思考。四是讲述它在可视化方面的优势与劣势。\n本书适合有一定经验的前端开发人员阅读。\n陈屹\n前端架构师，就职于阿里巴巴。热衷开源事业，长年专注于前端架构、数据可视化、Node.js等领域，知乎专栏pure render的创办人。",
+		"price": "CNY 79.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 22,
+			"average": "6.7",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["王利华  魏晓军  冯诚祺"],
+		"pubdate": "2016-1-1",
+		"tags": [{
+			"count": 32,
+			"name": "Native入门与实战",
+			"title": "Native入门与实战"
+		}, {
+			"count": 23,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 12,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 11,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 8,
+			"name": "reactnative",
+			"title": "reactnative"
+		}, {
+			"count": 7,
+			"name": "App",
+			"title": "App"
+		}, {
+			"count": 2,
+			"name": "开发",
+			"title": "开发"
+		}, {
+			"count": 2,
+			"name": "前端开发",
+			"title": "前端开发"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s29105337.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "第一部分 基础语法篇\n第1章　React Native简介　　 2\n1.1　环境搭建　　2\n1.1.1　安装Node.js　　2\n1.1.2　安装React Native　　6\n1.1.3　使用NVM 管理Node.js 版本　　7\n1.1.4　创建项目　　8\n1.2　从React到 React Native　　9\n1.2.1　React简介　　9\n1.2.2　ReactNative简介　　13\n1.3　为什么要使用React Native　　17\n1.4　如何学习React Native　　17\n1.5　说明　　18\n第2章　React Native开发基础　　19\n2.1　flexbox布局　　19\n2.1.1　介绍　　19\n2.1.2　布局模型　　20\n2.1.3　伸缩容器属性　　20\n2.1.4　伸缩项目属性　　37\n2.1.5　在React Native中使用flexbox　　46\n2.1.6　实例　　47\n2.2　React中的JSX　　53\n2.2.1　JSX入门　　53\n2.2.2　JSX实战之ReactJS　　59\n2.2.3　JSX实战之React Native　　77\n2.3　React Native开发向导　　80\n2.3.1　配置文件　　80\n2.3.2　运行　　83\n2.3.3　调试　　85\n2.3.4　内部发布　　91\n2.4　参考资料　　91\n第二部分 API和组件篇\n第3章　常用组件及其实践　　94\n3.1　View组件　　94\n3.1.1　View介绍　　94\n3.1.2　案例：九宫格实现　　94\n3.2　Text组件　　102\n3.2.1　Text组件介绍　　102\n3.2.2　案例：网易新闻列表展示　　102\n3.3　NavigatorIOS组件　　109\n3.3.1　NavigatorIOS组件介绍　　109\n3.3.2　案例：列表页跳转详情页　　110\n3.4　TextInput组件　　113\n3.4.1　TextInput组件介绍　　113\n3.4.2　案例：搜索自动提示　　114\n3.5　Touchable类组件　　121\n3.5.1　TouchableHighlight组件　　121\n3.5.2　TouchableOpacity组件　　123\n3.5.3　TouchableWithoutFeedback组件　　123\n3.6　Image组件　　124\n3.6.1　Image组件介绍　　124\n3.6.2　加载网络图片　　124\n3.6.3　加载本地图片　　127\n3.7　TabBarIOS组件　　128\n3.7.1　TabBarIOS组件介绍　　128\n3.7.2　案例：类QQ Tab切换　　129\n3.8　WebView组件　　133\n3.8.1　WebView组件介绍　　133\n3.8.2　案例：使用WebView组件加载微博页面　　134\n3.8.3　案例：新浪微博OAuth认证　　136\n第4章　常用API及其实践　　 138\n4.1　AppRegistry　　138\n4.1.1　AppRegistry介绍　　138\n4.1.2　AppRegistry示例　　138\n4.2　AsyncStorage　　140\n4.2.1　AsyncStorage介绍　　140\n4.2.2　案例：购物车　　140\n4.3　AlertIOS　　149\n4.3.1　AlertIOS　　149\n4.3.2　AlertIOS组件的应用　　150\n4.4　ActionSheetIOS　　152\n4.4.1　ActionSheetIOS介绍　　152\n4.4.2　ActionSheetIOS应用　　152\n4.5　PixelRatio　　154\n4.5.1　PixelRatio介绍　　154\n4.5.2　PixelRatio应用　　155\n4.6　AppStateIOS　　156\n4.6.1　AppStateIOS介绍　　156\n4.6.2　AppStateIOS实例　　156\n4.7　StatusBarIOS　　157\n4.7.1　StatusBarIOS介绍　　157\n4.7.2　StatusBarIOS应用　　157\n4.8　NetInfo　　158\n4.8.1　NetInfo介绍　　159\n4.8.2　NetInfo示例　　 159\n4.9　CameraRoll　　 159\n4.9.1　CameraRoll介绍　　 160\n4.9.2　CameraRoll应用　　 160\n4.9.3　react-native-camera　　 167\n4.10　VibrationIOS　　 170\n4.11　Geolocation　　 171\n4.11.1　Geolocation介绍　　 171\n4.11.2　Geolocation应用　　 172\n4.12　数据请求　　 173\n4.12.1　XMLHttpRequest　　 174\n4.12.2　Fetch　　 174\n4.13　定时器　　 175\n4.13.1　setTimeout　　 175\n4.13.2　setInterval　　 176\n4.13.3　setImmediate　　 176\n4.13.4　使用requestAnimationFrame开发进度条　　 176\n4.13.5　完整代码　　 177\n第5章　Native扩展　　 178\n5.1　通信机制　　 178\n5.1.1　模块配置映射　　 178\n5.1.2　通信流程　　 180\n5.2　自定义Native API组件　　 183\n5.2.1　模块和方法定义　　 184\n5.2.2　回调函数　　 185\n5.2.3　线程　　 187\n5.2.4　常量导出　　 188\n5.2.5　事件　　 189\n5.2.6　实战　　 190\n5.3　构建Native UI组件　　 196\n5.3.1　概述　　 196\n5.3.2　UI组件的定义　　 196\n5.3.3　UI组件属性　　 197\n5.3.4　组件方法　　 199\n5.3.5　事件　　199\n5.3.6　实例　　201\n第6章　组件封装　　 208\n6.1　二级菜单组件　　208\n6.1.1　静态组件的实现　　209\n6.1.2　实现组件的复用和封装　　213\n6.1.3　应用二级菜单组件　　219\n6.2　日历组件　　220\n6.2.1　开发日历组件　　221\n6.2.2　应用日历组件　　226\n6.3　开源组件　　227\n6.3.1　react-native-swiper　　228\n6.3.2　react-native-modal　　231\n第三部分 App更新和上架篇\n第7章　热更新和上架　　 236\n7.1　动态更新　　236\n7.1.1　初始化设置　　236\n7.1.2　更新逻辑　　238\n7.1.3　回滚策略　　240\n7.2　App 上架　　240\n7.2.1　证书生成　　241\n7.2.2　注册应用　　248\n7.2.3　上传应用　　249\n第四部分 实战篇\n第8章　企业内部通讯录应用开发　　 254\n8.1　需求提出　　254\n8.2　技术架构　　255\n8.3　服务器端设计和开发　　256\n8.3.1　服务器端整体设计　　257\n8.3.2　用户数据模型设计　　257\n8.3.3　公告数据模型设计　　259\n8.3.4　服务路由设计　　260\n8.3.5　创建项目　　260\n8.3.6　app.js入口文件　　262\n8.3.7　加载服务模块到内存　　263\n8.3.8　工具类开发　　264\n8.3.9　用户信息接口　　265\n8.3.10　公告消息接口　　270\n8.3.11　建议　　272\n8.4　客户端设计和开发　　272\n8.4.1　客户端设计　　272\n8.4.2　工具组件和服务　　274\n8.4.3　添加依赖库　　275\n8.4.4　程序入口和登录　　277\n8.4.5　联系人列表　　286\n8.4.6　公告功能　　294\n8.4.7　管理功能　　299\n8.4.8　关于　　316\n8.4.9　建议　　318\n第9章　基于LBS的应用开发　　 319\n9.1　功能设计　　319\n9.1.1　需求确定　　319\n9.1.2　开发目录结构　　320\n9.2　程序入口和工具模块　　321\n9.2.1　注册应用程序　　321\n9.2.2　工具模块　　322\n9.2.3　Nearby组件入口　　323\n9.3　列表组件开发　　327\n9.3.1　通用列表组件开发　　327\n9.3.2　完成列表页　　334\n9.4　详情页组件开发　　336\n9.5　WebView地图模块开发　　338\n9.6　综合效果　　341\n第10章　豆搜App　　 342\n10.1　豆瓣API　　342\n10.1.1　熟悉豆瓣API　　342\n10.1.2　图书、电影、音乐API　　343\n10.2　应用设计　　345\n10.2.1　功能设计　　345\n10.2.2　模块划分　　345\n10.3　公共模块开发　　347\n10.3.1　工具类开发　　347\n10.3.2　服务列表　　348\n10.3.3　Navigator封装　　349\n10.3.4　公共头封装　　350\n10.3.5　WebView封装　　 352\n10.3.6　搜索框封装　　 353\n10.4　功能开发　　 354\n10.4.1　入口组件　　 354\n10.4.2　图书列表页开发　　 356\n10.4.3　图书详情页开发　　 361\n10.4.4　电影模块开发　　 363\n10.4.5　音乐模块开发　　 368\n10.5　完成豆搜App　　 372",
+		"pages": "372",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s29105337.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s29105337.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s29105337.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26694486\/",
+		"id": "26694486",
+		"publisher": "人民邮电出版社",
+		"isbn10": "7115411913",
+		"isbn13": "9787115411914",
+		"title": "React Native入门与实战",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26694486",
+		"alt_title": "",
+		"author_intro": "王利华\n王利华，vczero，携程无线框架高级工程师，HTML5培训讲师，主要负责框架组件性能优化、新一代框架研发。2013～2015年在高德地图负责Node.js服务和JavaScript API相关的研发。其GitHub地址：https:\/\/github.com\/vczero。\n魏晓军\n魏晓军，携程框架研发部研发经理，负责携程无线前端框架团队。2011年加入携程，先后从事携程PC端前端框架、数据可视化框架、无线端前端框架等开发工作。现负责携程无线前端框架的开发和性能优化等工作。\n冯诚祺\n冯诚祺，携程框架研发部高级iOS研发工程师，负责移动端用户行为以及性能数据的统计SDK、数据分析支持。正在修行，朝着全栈的方向努力着。",
+		"summary": "本书共4部分，首先简要介绍了React Native的开发基础知识，然后介绍了React Native的API、组件以及Native扩展和组件的封装，接着介绍了App的动态更新和上架过程，最后通过3个案例介绍了如何使用React Native开发原生App。",
+		"price": "CNY 79.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 13,
+			"average": "7.4",
+			"min": 0
+		},
+		"subtitle": "Building Native Mobile Apps with JavaScript",
+		"author": ["Bonnie Eisenman"],
+		"pubdate": "2015-12-25",
+		"tags": [{
+			"count": 24,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 11,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 9,
+			"name": "mobile",
+			"title": "mobile"
+		}, {
+			"count": 8,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 5,
+			"name": "ReactNative",
+			"title": "ReactNative"
+		}, {
+			"count": 5,
+			"name": "native",
+			"title": "native"
+		}, {
+			"count": 3,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 2,
+			"name": "Web前端",
+			"title": "Web前端"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28268062.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "200",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28268062.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28268062.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28268062.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26584297\/",
+		"id": "26584297",
+		"publisher": "O'Reilly Media",
+		"isbn10": "1491929006",
+		"isbn13": "9781491929001",
+		"title": "Learning React Native",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26584297",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "",
+		"price": "USD 39.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 15,
+			"average": "6.1",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["【美】Truong Hoang Dung（张皇容）"],
+		"pubdate": "2015-9",
+		"tags": [{
+			"count": 11,
+			"name": "react-native",
+			"title": "react-native"
+		}, {
+			"count": 9,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 8,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 7,
+			"name": "移动开发",
+			"title": "移动开发"
+		}, {
+			"count": 7,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 3,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 3,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 2,
+			"name": "iOS",
+			"title": "iOS"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s28317428.jpg",
+		"binding": "",
+		"translator": ["奇舞团"],
+		"catalog": "第1 章简介. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1\n本书中你将学到的内容: 1\n如何阅读本书1\n各章节的组织结构2\n第2 章安装配置新项目. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3\n在已有的iOS 应用中集成React Native 5\n首先建立一个简单的iOS 应用5\n安装React Native 5\n创建React Native 应用6\n将React Naitve 集成到iOS 应用中去7\n在设备上编译和运行13\n在设备上运行13\n练习： 15\n第3 章Flexbox 布局介绍. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18\nWeb 开发中的Flexbox 18\nFlexbox 布局究竟是什么呢？ 19\n教程20\n1. 栅格系统20\n2. 圣杯布局24\n3. 带有可变宽度搜索框的流式导航条27\n4. 垂直居中32\n在React Native 中使用Flexbox 35\n第4 章开发第一个应用. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38\n在React Native 中完成“Hello World” 38\n创建项目38\n使用Xcode 39\n使用模拟器39\n项目结构41\nReact 基础43\nrender 函数43\n样式45\n注册组件46\n修改组件46\n搜索框和数据检索50\n增加搜索框50\n方法代理51\n检索数据52\n显示结果55\n组件状态55\n创建我们的ListView 组件56\n创建每个数据单元57\n给列表中每个结果项设置样式59\n结果60\n第5 章在React Native 中使用导航. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66\n第6 章动画和滑动菜单. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 71\n我们需要做什么71\n相关的代码71\n它是如何运行的75\n如何使用76\n扩展一些缺少的功能78\nii 目录\n第7 章用React Native 绘制Canvas. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79\n使用WebView 79\n如何使用80\n使用ReactART library 82\n在网页中使用ReactART 82\n在React Native 中使用ReactART 85\n结论90\n使用React Native 播放音频90\n第8 章你的第一个自定义视图. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97\n尝试一下98\n第9 章Flux 介绍. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 104\nFlux 是什么？ 104\n从React 到Flux 105\nFlux 110\n练习119\n第10 章处理复杂的应用程序状态. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120\n解决方案121\n初识Baobab 121\n把我们的状态树并入ReactJS 123\n连接单个游标到组件124\n连接多个游标到组件124\n如何改变Baobab 树的状态125\n应用程序状态127\n一个稍微复杂的例子129\nOptimize 130\n1.ReactJS 的级联渲染131\n2. 重复渲染131\n第11 章使用Node 来实现服务端API . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135\n安装Express： 135\n目录iii\nRequest 和Response 对象136\n理解中间件139\n从URL 中获取参数142\n处理相关参数143\n路由实例143\n重构路由144\n使用JSON 146\nJSON 结构146\n在JavaScript 中使用JSON 149\niOS 中的HTTP 149\nWeb 服务151\nNSURL, NSURLRequest, NSURLSession 和NSURLSessionTask 152\n构造URL 和发送请求153\n使用NSURLSession 153\nJSON 数据155\n解析JSON 数据156\n主线程156\n更深入的学习：请求主体157\n第12 章在React Native 中使用文件上传. . . . . . . . . . . . . . . . . . . . . . . . . . . . 159\n创建服务器159\n注解161\n进行文件验证161\n总结： 162\nReact Native 文件上传的客户端： 162\n第13 章理解JavaScript Promise . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171\n事件并不是万能的172\nPromise 术语173\nJavaScript 中的Promise 174\n浏览器支持和Polyfill 175\n与其他库的兼容性175\n让复杂的异步代码变得更加简单176\niv 目录\n将Promise 用于XMLHttpRequest 177\n链式调用178\n数值处理178\n异步操作队列179\n错误处理180\n图片181\nJavaScript 异常和Promise 182\n错误处理实战182\n并行和串行—— 鱼和熊掌兼得184\n创建序列185\nPromise 和Generator 190\nPromise API 参考193\n静态方法193\n构造器194\n实例方法194\n第14 章Fetch 简介. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 195\nXMLHttpRequest 快要过时了195\nfetch 基础使用195\n使用XMLHttpRequest 实现195\n使用fetch 实现196\n响应中的元数据197\n响应类型197\nPromsie 方法链198\n使用fetch 请求发送凭证信息199\n问答环节200\n我该如何取消一个fetch 请求？ 200\n有相关的polyfill 么？ 200\n为什么在service workers 中支持“no-cors”，而在window 中却不行？ 200\n第15 章在iOS 中使用SQLite . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 201\n创建并打开数据库202\n绑定变量203\n目录v\n开发SQLite 模块204\n第16 章集成Google Admob . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 209\n创建项目209\n将SDK 添加到你的Xcode 项目209\n第17 章React Native 组件国际化. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 214\n我要做什么214\n工作机制214\n安装步骤214\n在项目中使用218\n第18 章测试React Native 组件. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 221\n安装配置测试环境221\n编写测试程序226\n第19 章附录：React.js 快速介绍. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 228\nJSX - React 的特殊语法228\n开始和运行229\n组件- 构建React 的基石229\n在我的javascript 代码中，出现了HTML 片段？ 230\n组件和状态231\n第20 章附录B：Objective-C Primer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233\n类的基本语法233\n方法233\n属性234\n实现235\n规范237\n第21 章webpack 入门. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 238\n为什么要使用webpack? 238\nwebpack 也适合Browserify 用户238\nvi 目录\n启动webpack 239\nloader 的使用239\n样式表和图片240\n功能开关241\n多个入口点（entrypoint） 242\n优化共用代码243\n异步加载243",
+		"pages": "256",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28317428.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28317428.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28317428.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26642323\/",
+		"id": "26642323",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121271702",
+		"isbn13": "9787121271700",
+		"title": "React Native：用JavaScript开发移动应用",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26642323",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "React Native是当前移动端开发中的优秀解决方案。《React Native：用JavaScript开发移动应用》围绕着如何将一个完整App提交到App Store，讲解了使用React Native开发iOS应用所涉及的方方面面。首先介绍了Flexbox布局，教大家从零开始搭建一个初始应用，以此阐明React Native的基础运行机理；然后介绍了Flux的设计思想，怎么理解和使用Promise、Fetch等新API，以及数据库SQLite存储方面的知识，以便让你对一个完整的App形成感性认识；最后讲解了怎样测试React Native组件，并将完整的App发布到App Store中。\n如果你对开发Web端的原生移动应用感兴趣，《React Native：用JavaScript开发移动应用》就是一本不容错过的以实例代码为引导的入门书籍。",
+		"price": "65.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 20,
+			"average": "7.1",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["[美]艾森曼"],
+		"pubdate": "2016-6-1",
+		"tags": [{
+			"count": 18,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 8,
+			"name": "移动开发",
+			"title": "移动开发"
+		}, {
+			"count": 6,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 4,
+			"name": "编程",
+			"title": "编程"
+		}, {
+			"count": 4,
+			"name": "reactnative",
+			"title": "reactnative"
+		}, {
+			"count": 4,
+			"name": "native",
+			"title": "native"
+		}, {
+			"count": 4,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 3,
+			"name": "react",
+			"title": "react"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29105336.jpg",
+		"binding": "平装",
+		"translator": ["黄为伟"],
+		"catalog": "前言　　xi\n第1章　初识React Native　　1\n1.1　React Native 的优点　　2\n1.1.1　开发者体验　　2\n1.1.2　代码复用与知识共享　　3\n1.2　风险和缺点　　4\n1.3　小结　　4\n第2章　React Native 工作原理　　5\n2.1　React Native 是如何工作的　　5\n2.2　渲染周期　　7\n2.3　在React Native 中创建组件 7\n2.3.1　编写视图　　7\n2.3.2　使用JSX　　9\n2.3.3　原生组件的样式　　10\n2.4　宿主平台接口　　11\n2.5　小结　　12\n第3章　构建你的第一个应用　　13\n3.1　搭建环境　　13\n3.1.1　安装React Native　　14\n3.1.2　iOS 依赖　　14\n3.1.3　Android 依赖　　14\n3.2　创建一个新的应用　　17\n3.2.1　在iOS 平台运行React Native 应用　　18\n3.2.2　部署到iOS 设备　　20\n3.2.3　在Android 平台运行React Native 应用　　23\n3.2.4　小结：创建并运行项目　　24\n3.3　探索示例代码　　24\n3.3.1　添加组件到视图中　　24\n3.3.2　React Native 中的模块导入　　25\n3.3.3　FirstProject 组件　　26\n3.4　开发天气应用　　27\n3.4.1　处理用户输入　　28\n3.4.2　展现数据　　30\n3.4.3　添加背景图片　　34\n3.4.4　从Web 获取数据　　36\n3.4.5　整合　　37\n3.5　小结　　40\n第4章　移动应用组件　　42\n4.1　类比HTML 元素与原生组件　　42\n4.1.1　文本组件　　43\n4.1.2　图片组件　　45\n4.2　处理触摸和手势　　46\n4.2.1　使用TouchableHighlight　　47\n4.2.2　GestureResponder 系统　　49\n4.2.3　PanResponder　　52\n4.3　使用结构化组件　　58\n4.3.1　使用ListView　　58\n4.3.2　使用Navigator　　66\n4.3.3　其他结构化组件　　68\n4.4　平台特定组件　　69\n4.4.1　iOS 或Android 特定组件　　69\n4.4.2　平台特定版本的组件　　70\n4.4.3　何时使用平台特定组件　　74\n4.5　小结　　74\n第5章　样式　　75\n5.1　声明和操作样式　　75\n5.1.1　内联样式　　76\n5.1.2　对象样式　　76\n5.1.3　使用Stylesheet.Create　　77\n5.1.4　样式拼接　　77\n5.2　组织和继承　　79\n5.2.1　导出样式对象　　79\n5.2.2　样式作为属性传递　　80\n5.2.3　复用和共享样式　　81\n5.3　定位和设计布局　　81\n5.3.1　使用flexbox 布局　　82\n5.3.2　使用绝对定位　　86\n5.3.3　学以致用　　86\n5.4　小结　　91\n第6章　平台接口　　92\n6.1　使用定位接口　　93\n6.1.1　获取用户地理位置　　93\n6.1.2　处理权限问题　　94\n6.1.3　在iOS 模拟器上测试定位　　95\n6.1.4　监听用户位置　　96\n6.1.5　限制　　96\n6.1.6　改进天气应用　　96\n6.2　使用用户图片与摄像头  99\n6.2.1　相机模块　　99\n6.2.2　通过getPhotoParams 获取图片　　101\n6.2.3　从相机渲染一张图片　　101\n6.2.4　展示照片列表　　103\n6.2.5　上传图片至服务器　　107\n6.3　AsyncStore 持久化数据存储　　108\n6.4　智能天气应用　　109\n6.4.1　WeatherProject 组件　　111\n6.4.2　Forecast 组件　　114\n6.4.3　Button 组件　　115\n6.4.4　LocationButton 组件　　116\n6.4.5　PhotoBackdrop 组件　　117\n6.5　小结　　119\n第7章　模块　　120\n7.1　使用npm 安装JavaScript 类库　　120\n7.2　iOS 原生模块　　121\n7.2.1　导入第三方组件　　122\n7.2.2　使用视频组件　　125\n7.2.3　剖析Objective-C 原生模块　　125\n7.2.4　RCTVideo 的实现　　128\n7.3　Android 原生模块　　130\n7.3.1　安装第三方组件　　130\n7.3.2　剖析Java 原生模块　　134\n7.3.3　LinearGradient 的Android 实现　　137\n7.4　跨平台原生模块　　139\n7.5　小结　　141\n第8章　调试与开发者工具　　142\n8.1　JavaScript 调试实践和解释　　142\n8.1.1　激活开发者选项　　142\n8.1.2　使用console.log 调试　　143\n8.1.3　使用JavaScript 调试器　　145\n8.1.4　使用React 开发者工具　　146\n8.2　React Native 调试工具　　147\n8.2.1　使用审查元素功能　　147\n8.2.2　宕机红屏　　148\n8.3　JavaScript 之外的调试方法　　152\n8.3.1　常见的开发环境问题　　153\n8.3.2　常见的Xcode 问题　　153\n8.3.3　常见的Android 问题　　154\n8.3.4　React Native 包管理器　　155\n8.3.5　部署至iOS 设备的问题　　156\n8.3.6　模拟器行为　　157\n8.4　测试代码　　158\n8.4.1　使用Flow 进行类型检查　　158\n8.4.2　使用Jest 进行测试　　158\n8.5　当你陷入困境　　160\n8.6　小结　　160\n第9章　学以致用　　161\n9.1　闪卡应用　　161\n9.1.1　项目结构　　163\n9.1.2　组件层次结构　　164\n9.2　模型与数据存储　　168\n9.2.1　数据流架构：Reflux 与Flux　　170\n9.2.2　在Zebreto 中使用Reflux　　173\n9.2.3　AsyncStorage 与Reflux Store 的持久化　　175\n9.3　使用Navigator　　177\n9.4　探索第三方依赖　　180\n9.5　响应式设计与字体尺寸　　180\n9.6　小结及任务　　183\n第10章　部署至iOS 应用商店　　184\n10.1　准备Xcode 工程　　184\n10.1.1　选择支持的设备和目标iOS 版本　　185\n10.1.2　启动界面图像　　186\n10.1.3　添加应用图标　　188\n10.1.4　设置Bundle 名称　　190\n10.1.5　更新AppDelegate.m　　190\n10.1.6　为发布设置Schema　　191\n10.2　上传应用　　192\n10.2.1　完成协议文书　　192\n10.2.2　创建归档　　193\n10.2.3　在iTunes Connect 上创建应用　　196\n10.3　使用TestFlight 进行Beta 测试　　199\n10.4　提交应用审核　　200\n10.5　小结　　201\n第11章　部署Android 应用　　203\n11.1　设置应用图标　　203\n11.2　生成release 版本的APK　　205\n11.3　通过邮件或链接发布　　207\n11.4　提交应用至Play 商店　　207\n11.4.1　通过Play Store 进行Beta 测试　　209\n11.4.2　Play 商店列表　　210\n11.4.3　商店列表所需的资源　　211\n11.4.4　发布应用　　212\n11.5　小结　　214\n总结　215\n附录A　ES6 语法　　216\n附录B　命令与快速入门指南　　219\n作者简介　　221\n关于封面　　221",
+		"pages": "221",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29105336.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29105336.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29105336.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26821262\/",
+		"id": "26821262",
+		"publisher": "人民邮电出版社",
+		"isbn10": "7115425264",
+		"isbn13": "9787115425263",
+		"title": "React Native开发指南",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26821262",
+		"alt_title": "",
+		"author_intro": "Bonnie Eisenman\n是Twitter公司的软件工程师，曾就职于Codecademy、Google和Fog Creek Software公司。她曾在多个会议上作过演讲，话题涉及React、音乐编程和Arduino。工作之余，她乐于开发电子乐器，喜爱使用激光切割巧克力，并且热爱学习各种语言。",
+		"summary": "本书通过丰富的示例和详细的讲解，介绍了React Native这款JavaScript框架。在React Native中利用现有的JavaScript和React知识，就可以开发和部署功能完备的、真正原生的移动应用，并同时支持iOS与Android平台。除了框架本身的概念讲解之外，本书还讨论了如何使用第三方库，以及如何编写自己的Java或Objective-C的React Native扩展。",
+		"price": "CNY 59.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 10,
+			"average": "7.8",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["张轩", "杨寒星"],
+		"pubdate": "2016-10-1",
+		"tags": [{
+			"count": 15,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 7,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 6,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 2,
+			"name": "2016",
+			"title": "2016"
+		}, {
+			"count": 1,
+			"name": "实体",
+			"title": "实体"
+		}, {
+			"count": 1,
+			"name": "张轩",
+			"title": "张轩"
+		}, {
+			"count": 1,
+			"name": "杨寒星",
+			"title": "杨寒星"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29120035.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "第 1 章  现代前端开发  1\n1.1  ES6——新一代的 JavaScript 标准  1\n1.1.1  语言特性  2\n1.1.2  使用 Babel  10\n1.1.3  小结  13\n1.2  前端组件化方案  13\n1.2.1  JavaScript 模块化方案  14\n1.2.2  前端的模块化和组件化  16\n1.2.3  小结  18\n1.3  辅助工具  19\n1.3.1  包管理器（Package Manager）  19\n1.3.2  任务流工具（Task Runner）  23\n1.3.3  模块打包工具（Bundler）  26\n第 2 章  webpack  28\n2.1  webpack 的特点与优势  28\n2.1.1  webpack 与 RequireJS、browserify  29\n2.1.2  模块规范  30\n2.1.3  非 javascript 模块支持  31\n2.1.4  构建产物  32\n2.1.5  使用  33\n2.1.6  webpack 的特色  35\n2.1.7  小结  38\n2.2  基于 webpack 进行开发  38\n2.2.1  安装  38\n2.2.2  Hello world  39\n2.2.3  使用 loader  43\n2.2.4  配置文件  46\n2.2.5  使用 plugin  48\n2.2.6  实时构建  50\n第 3 章  初识 React  52\n3.1  使用 React 与传统前端开发的比较  54\n3.1.1  传统做法  54\n3.1.2  全量更新  56\n3.1.3  使用 React  57\n3.1.4  小结  59\n3.2  JSX  59\n3.2.1  来历  59\n3.2.2  语法  60\n3.2.3  编译 JSX  63\n3.2.4  小结  64\n3.3  React+webpack 开发环境  64\n3.3.1  安装配置 Babel  64\n3.3.2  安装配置 ESLint  65\n3.3.3  配置 webpack  66\n3.3.4  添加测试页面  68\n3.3.5  添加组件热加载（HMR）功能  70\n3.3.6  小结  71\n3.4  组件  72\n3.4.1  props 属性  73\n3.4.2  state 状态  76\n3.4.3  组件生命周期  78\n3.4.4  组合组件  80\n3.4.5  无状态函数式组件  82\n3.4.6  state 设计原则  82\n3.4.7  DOM 操作  83\n3.5  Virtual DOM  85\n3.5.1  DOM  85\n3.5.2  虚拟元素  86\n3.5.3  比较差异  88\n第 4 章  实践 React  91\n4.1  开发项目  91\n4.1.1  将原型图分割成不同组件  92\n4.1.2  创造每个静态组件  93\n4.1.3  组合静态组件  96\n4.1.4  添加 state 的结构  99\n4.1.5  组件交互设计  100\n4.1.6  组合成为最终版本  102\n4.1.7  小结  105\n4.2  测试  106\n4.2.1  通用测试工具简介  106\n4.2.2  React 测试工具及方法  108\n4.2.3  配置测试环境  109\n4.2.4  Shallow Render  110\n4.2.5  DOM Rendering  114\n4.2.6  小结  116\n第 5 章  Flux 架构及其实现  117\n5.1  Flux  117\n5.1.1  单向数据流  118\n5.1.2  项目结构  119\n5.1.3  Dispatcher 和 action  119\n5.1.4  store 和 Dispatcher  122\n5.1.5  store 和 view  124\n5.1.6  Flux 的优缺点  126\n5.1.7  Flux 的实现  126\n5.2  Redux  126\n5.2.1  动机  127\n5.2.2  三大定律  127\n5.2.3  组成  129\n5.2.4  数据流  136\n5.2.5  使用 middleware  137\n第 6 章  使用 Redux  142\n6.1  在 React 项目中使用 Redux  142\n6.1.1  如何在 React 项目中使用 Redux  142\n6.1.2  react-redux  147\n6.1.3  组件组织  152\n6.1.4  开发工具  155\n6.2  使用 Redux 重构 Deskmark  157\n6.2.1  概要  157\n6.2.2  创建与触发 action  158\n6.2.3  使用 middleware  159\n6.2.4  实现 reducer  163\n6.2.5  创建与连接 store  165\n第 7 章  React＋Redux 进阶  168\n7.1  常见误解  168\n7.1.1  React 的角色  169\n7.1.2  JSX 的角色  169\n7.1.3  React 的性能  170\n7.1.4  “短路”式性能优化  171\n7.1.5  无状态函数式组件的性能  172\n7.2  反模式  173\n7.2.1  基于 props 得到初始 state  173\n7.2.2  使用 refs 获取子组件  176\n7.2.3  冗余事实  178\n7.2.4  组件的隐式数据源  180\n7.2.5  不被预期的副作用  182\n7.3  性能优化  183\n7.3.1  优化原则  183\n7.3.2  性能分析  184\n7.3.3  生产环境版本  187\n7.3.4  避免不必要的 render  188\n7.3.5  合理拆分组件  199\n7.3.6  合理使用组件内部 state  200\n7.3.7  小结  203\n7.4  社区产物  203\n7.4.1  Flux 及其实现  203\n7.4.2  Flux Standard Action  204\n7.4.3  Ducks  206\n7.4.4  GraphQL\/Relay 与 Falcor  207\n7.4.5  副作用的处理  209",
+		"pages": "228",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29120035.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29120035.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29120035.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26901067\/",
+		"id": "26901067",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121298996",
+		"isbn13": "9787121298998",
+		"title": "React全栈：Redux+Flux+webpack+Babel整合开发",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26901067",
+		"alt_title": "",
+		"author_intro": "张轩，前端开发工程师。曾经在百度、携程就职，目前在苹果公司担任前端开发工程师。拥有丰富的Web开发经验，喜欢追寻新技术，在GitHub上关注各种有趣的项目，同时致力于前端工程化，并且有大型SPA项目的架构及开发经验。他同时是一名业余文学爱好者，在工作之余写一些短篇小说。\n杨寒星，前端开发工程师。曾就职于爱奇艺、百度，目前在七牛云负责前端开发与架构设计。对编写优美的代码、构建影响深远的系统感兴趣；专注于现代前端工程化方案搭建及大规模SPA的架构设计，对基于React体系的前端开发有着丰富的实践经验。",
+		"summary": "《React全栈：Redux+Flux+webpack+Babel整合开发》从现代前端开发的标准、趋势和常用工具入手，由此引出了优秀的构建工具 webpack 和 JavaScript库 React，之后用一系列的实例来阐述两者的特色、概念和基本使用方法。随着应用复杂度的增加，进而介绍了 Flux 和 Redux 两种架构思想，并且使用 Redux 对现有程序进行改造，最后介绍了在开发过程中出现的反模式和性能优化方法。\n《React全栈：Redux+Flux+webpack+Babel整合开发》适合有一定前端开发尤其是 JavaScript 基础的读者阅读，如果您还没有接触过前端开发这个领域，请先阅读前端开发的入门书籍。",
+		"price": "CNY 69.00"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 5,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "The JavaScript Library for User Interfaces",
+		"author": ["Frankie Bagnardi", "Jonathan Beebe", "Richard Feldman", "Tom Hallett", "Simon Højberg", "Karl Mikkelsen"],
+		"pubdate": "2014-11",
+		"tags": [{
+			"count": 8,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 5,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 2,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 2,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 2,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 1,
+			"name": "Frontend",
+			"title": "Frontend"
+		}, {
+			"count": 1,
+			"name": "编程",
+			"title": "编程"
+		}, {
+			"count": 1,
+			"name": "没买的书",
+			"title": "没买的书"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s27913797.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "Chapter 1Introduction to React\nChapter 2JSX\nChapter 3Component Lifecycle\nChapter 4Data Flow\nChapter 5Event Handling\nChapter 6Composing Components\nChapter 7Mixins\nChapter 8DOM Manipulation\nChapter 9Forms\nChapter 10Animations\nChapter 11Performance Tuning\nChapter 12Server Side Rendering\nChapter 13In the Family\nChapter 14Development Tools\nChapter 15Testing\nChapter 16Architectural Patterns\nChapter 17Other Uses",
+		"pages": "234",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s27913797.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s27913797.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s27913797.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26275151\/",
+		"id": "26275151",
+		"publisher": "Bleeding Edge Press",
+		"isbn10": "1939902126",
+		"isbn13": "9781939902122",
+		"title": "Developing a React Edge",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26275151",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "React.js was born to bring the PHP style work flow to client side applications. React.js has a narrow scope, and it is concerned with only updating the DOM and responding to events. React.js is not a Model-View-Controller framework; it is actually the V in MVC. This narrow scope gives you the freedom to incorporate React into a wide variety of systems. In this book we cover all aspects of React.js with the help of a Survey Builder example.",
+		"price": "USD 22.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 12,
+			"average": "7.1",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["Artemij Fedosejev"],
+		"pubdate": "2016-1-1",
+		"tags": [{
+			"count": 8,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 7,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 2,
+			"name": "Javascript",
+			"title": "Javascript"
+		}, {
+			"count": 1,
+			"name": "2016",
+			"title": "2016"
+		}, {
+			"count": 1,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 1,
+			"name": "vger",
+			"title": "vger"
+		}, {
+			"count": 1,
+			"name": "计算机",
+			"title": "计算机"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s28346799.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "194",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28346799.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28346799.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28346799.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26670174\/",
+		"id": "26670174",
+		"publisher": "Packt Publishing - ebooks Account",
+		"isbn10": "1783551623",
+		"isbn13": "9781783551620",
+		"title": "React.js Essentials",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26670174",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "",
+		"price": "USD 29.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 10,
+			"average": "6.9",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["【英】Artemij Fedosejev （阿尔乔姆 . 费多耶夫）"],
+		"pubdate": "2016-5",
+		"tags": [{
+			"count": 5,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 4,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 3,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 3,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 2,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 2,
+			"name": "web",
+			"title": "web"
+		}, {
+			"count": 2,
+			"name": "编程",
+			"title": "编程"
+		}, {
+			"count": 1,
+			"name": "前端开发",
+			"title": "前端开发"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s28779387.jpg",
+		"binding": "平装",
+		"translator": ["奇舞团"],
+		"catalog": "1 给项目预先安装一些有用的工具  1\n了解我们的项目. 2\n安装Node.js 和npm  3\n安装Git  4\n从Twitter Streaming API 中获取数据  5\n使用Snapkite引擎来过滤数据  6\n创建项目结构  9\n创建package.json  10\n复用Node.js 模块  11\n使用Gulp.js 来构建应用  12\n创建一个网页  15\n小结  16\n2 创建你的第一个React 元素  17\n理解虚拟DOM  18\n安装React  19\n使用JavaScript 创建React 元素  20\ntype 参数  22\nprops 参数  22\nchildren 参数  23\n渲染React 元素 27\n使用JSX 来创建React 元素 28\n小结  30\n3 创建你的第一个React 组件  31\n无状态与有状态  31\n创建第一个无状态React 组件  32\n创建第一个有状态React 组件  37\n小结  44\n4 让React 组件变得可响应  45\n使用React 解决问题  45\n规划React 应用程序  47\n创建一个React 组件容器  49\n小结  57\n5 结合其他库来使用React 组件  59\n在React 组件中使用其他库  59\n理解React 组件的生命周期方法  64\n挂载方法  66\n卸载方法  71\n小结  72\n6 更新React 组件  73\n理解组件生命周期的更新方法  73\ncomponentWillReceiveProps()方法  74\nshouldComponentUpdate()方法  77\ncomponentWillUpdate()方法  77\ncomponentDidUpdate()方法  78\n设置React 组件的默认属性  79\n验证React 组件的属性  83\n创建Collection 组件  85\n小结  91\n7 构建复杂的React 组件  93\n创建TweetList组件  93\n创建CollectionControls组件  98\n创建CollectionRenameForm组件  105\n创建Button 组件  111\n创建CollectionExportForm组件  112\n小结  114\n8 使用Jest 来测试React 应用程序  115\n为什么要写单元测试  115\n创建测试套件、规范和期望  115\n安装并运行Jest  121\n创建更多的测试规范和期望  122\n测试React 组件  130\n小结  137\n9 使用Flux 完善React 架构  139\n分析当前应用的架构  139\n理解Flux  142\n创建分发器  143\n创建动作生成器  144\n创建存储  145\n小结  150\n10 使用Flux 提升应用的可维护性  151\n借助Flux 实现解耦 152\n重构Stream 组件  155\n创建CollectionStore  161\n创建CollectionActionCreators  167\n重构Application 组件  169\n重构Collection 组件  171\n重构CollectionControls组件  175\n重构CollectionRenameForm组件  178\n重构TweetList组件  180\n重构StreamTweet组件  181\n编译  181",
+		"pages": "196",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28779387.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28779387.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28779387.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26809233\/",
+		"id": "26809233",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121286467",
+		"isbn13": "9787121286469",
+		"title": "React 精髓",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26809233",
+		"alt_title": "",
+		"author_intro": "ArtemijFedosejev是一位技术大牛，现居住在英国伦敦。他从2000 年开始自学Web开发，并成为了一位Web 开发者。Artemij在爱尔兰的科克大学获得了计算机科学学士学位。他还参加了Ignite 的商业研究生创新计划，在那里开发和创建的网站获得了最具创新项目奖。\n毕业后，Artemij移居伦敦，帮助当地创业公司开发产品。Artemij擅长 JavaScript、Node.js、HTML5、CSS3 等现代Web 技术。在创业公司获得一些经验以后，Artemij获得了一个加入伦敦皇家学院的机会，从事研究和开发工作，在公共卫士领域规划和主导了一些Web 应用程序。他在创WGSA.net 和Microreact.org 的前端架构中使用了React.js 和Flux，从而起到了关键的作用。Artemij还开发了大量的开源项目，如Snapkite引擎、Snapkite流客户端等项目，可以在他的 GitHub 上（https:\/\/github.com\/fedosejev）找到相关内容。他也是http:\/\/react.tips website 网站的作者。\n我深深地感谢我的家人，在我努力的过程中他们一直支持我。有了他们的爱和奉献，我才能一直把重点放在学习新鲜事物上，然后传授给别人。特别感谢AlexBush不断扩展我对软件开发方式的认识。同时，这本书的编写少不了DavidAanensen博士和MirkoMenegazzo的支持。最后，我要感谢我的编辑和给我这个机会的Packt出版社的好心人，让我可以给世界各地的开发者分享我的知识和经验。",
+		"summary": "《React 精髓》面向初中级前端开发者，从头到尾、由浅入深地介绍了使用React 实现组件化Web 应用的完整流程。作者从React 元素、React 组件等基本的概念讲起，循序渐进地讨论了组件状态和生命周期，为开发完整的React 应用打下了基础。与第三方JavaScript 框架集成，以及对React 组件进行单元测试，都是开发React 应用的重要内容，《React 精髓》也有详细讲解。最后，为进一步提升React 应用的灵活性，作者还以实例展示了如何引入Flux 架构，让读者的开发技能更上一层楼。",
+		"price": "65.00元"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 5,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["阙喜涛"],
+		"pubdate": "2016-6",
+		"tags": [{
+			"count": 4,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 3,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 2,
+			"name": "Web开发",
+			"title": "Web开发"
+		}, {
+			"count": 1,
+			"name": "Programming",
+			"title": "Programming"
+		}, {
+			"count": 1,
+			"name": "移动端开发",
+			"title": "移动端开发"
+		}, {
+			"count": 1,
+			"name": "技术",
+			"title": "技术"
+		}, {
+			"count": 1,
+			"name": "react_native",
+			"title": "react_native"
+		}, {
+			"count": 1,
+			"name": "react",
+			"title": "react"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28779381.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "第1章　React Native\t1\n1.1  React Native开发特点\t2\n1.1.1  一次学习，随处编写\t2\n1.1.2  混合开发\t2\n1.1.3  高效的UI开发\t3\n1.1.4  高效的UI调试\t4\n1.1.5  学习门槛低、开发难度低\t4\n1.1.6  开发软硬件要求低\t5\n1.1.7  使用React Native开发的代价\t5\n1.1.8  为什么React Native尚未流行\t7\n1.2  React Native开发环境搭建\t7\n1.2.1  开发环境搭建起点\t7\n1.2.2  Windows操作系统下React Native开发环境搭建\t8\n1.2.3  苹果操作系统下React Native开发环境搭建\t9\n1.2.4  查看与删除使用npm命令安装的软件\t11\n1.3  代码编辑环境搭建\t11\n1.3.1  Sublime Text 3\t11\n1.3.2  开发用插件\t11\n1.3.3  Sublime界面风格选择\t13\n1.3.4  键盘使用习惯\t13\n1.4  React Native Dev tool安装\t14\n第2章　状态机思维与状态机变量\t16\n2.1  初始化项目\t16\n2.2  运行项目\t17\n2.2.1  使用Android手机进行调测\t18\n2.2.2  使用iPhone手机或模拟器进行调测\t21\n2.2.3  修改JSX代码\t22\n2.2.4  ES 6语法与ES 5语法\t24\n2.2.5  启动调试工具\t25\n2.3  构建注册页面\t28\n2.4  React Native代码执行逻辑\t32\n2.5  UI框架工作基本机制\t33\n2.5.1  状态机思维\t33\n2.5.2  “冒充常量”的状态机变量\t35\n2.5.3  “无处安放”的状态机变量\t36\n2.5.4  “努力瘦身”的状态机变量\t36\n2.6  React Native组件间通信\t37\n2.7  深入理解UI重新渲染的过程\t37\n2.7.1  合并状态机变量\t37\n2.7.2  判断是否渲染\t40\n2.7.3  替换状态机变量\t40\n2.7.4  强制启动渲染\t41\n2.7.5  渲染过程\t41\n2.7.6  合并状态机变量的最简语法\t41\n2.8  React Native组件的成员变量\t42\n2.9  React Native组件的静态变量、静态函数\t43\n第3章　页面导航、弹出框及深入理解属性\t44\n3.1  分离注册组件、组件平台自适配\t44\n3.1.1  分离注册组件\t44\n3.1.2  组件平台自适配\t44\n3.1.3  平台检测\t45\n3.2  导航组件、挂接注册组件\t45\n3.3  挂接注册等待组件\t47\n3.4  Navigator组件工作机制\t49\n3.4.1  push与pop\t50\n3.4.2  replace函数\t50\n3.5  自定义组件\t51\n3.5.1  “弹出一切框”的实现\t51\n3.5.2  React Native中颜色类型的值\t53\n3.5.3  挂接自定义组件\t54\n3.6  BackAndroid API的bug与解决办法\t56\n3.7  属性确认\t58\n3.8  指定属性默认值\t60\n3.9  Alert应用程序编程接口\t60\n3.9.1  弹出确认框\t60\n3.9.2  弹出选择框\t61\n3.10  带导航栏的页面导航\t62\n第4章　混合开发基础篇\t63\n4.1  iOS平台混合开发\t63\n4.1.1  与iOS 侧原生代码消息互通\t64\n4.1.2  React Native代码到iOS原生代码的消息\t65\n4.1.3  iOS 原生代码到React Native代码的消息\t68\n4.1.4  与iOS OC原生代码界面的切换\t69\n4.1.5  应用初始界面设定\t69\n4.1.6  iOS混合开发中传递的参数类型\t70\n4.1.7  混合开发中的多线程使用\t70\n4.1.8  原生代码实现Promise机制\t71\n4.1.9  跨语言常量\t72\n4.2  Android平台混合开发\t73\n4.2.1  与Android原生代码消息互通\t74\n4.2.2  React Native代码到Android原生代码的消息\t75\n4.2.3  与Android原生代码界面的切换\t78\n4.2.4  Android原生代码到React Native代码的消息\t82\n4.2.5  应用初始界面设定\t86\n4.2.6  传递的参数类型\t86\n4.2.7  回调函数与Promise机制\t86\n4.2.8  监听ActivityResult与Android生命周期事件\t88\n4.2.9  混合开发中的多线程机制\t89\n4.2.10  跨语言常量\t89\n第5章　flexbox布局、View、Image与可触摸组件\t90\n5.1  flexbox布局\t90\n5.1.1  位置及宽、高相关样式键\t91\n5.1.2  决定子组件排列规则的键\t92\n5.1.3  决定组件显示规则的键\t94\n5.1.4  边框、空隙与填充\t95\n5.1.5  组件多样式声明与动态样式声明\t96\n5.2  View组件\t97\n5.2.1  View组件的颜色与边框\t97\n5.2.2  View组件的阴影与其他视觉效果\t99\n5.2.3  View组件的变形\t101\n5.2.4  View组件的回调函数\t104\n5.2.5  View组件的其他属性\t106\n5.2.6  设备放置状态、根View与onLayout回调函数\t106\n5.2.7  pointerEvents属性\t109\n5.3  Image组件\t111\n5.3.1  加载网络图片\t111\n5.3.2  加载静态图片资源\t112\n5.3.3  加载资源文件中的图片\t112\n5.3.4  动态加载手机中的图片资源\t112\n5.3.5  Image组件的样式\t113\n5.3.6  Image组件显示特性\t114\n5.3.7  Image组件的其他属性\t117\n5.4  可触摸组件\t117\n5.4.1  可触摸组件类型\t118\n5.4.2  TouchableOpacity组件\t118\n5.4.3  TouchableHighlight组件\t118\n5.4.4  其他属性\t120\n5.5  加深理解三大组件\t120\n5.5.1  使用导航栏的导航框架\t121\n5.5.2  等比放大无丢失显示图片\t125\n5.5.3  宽、高动态变化的组件呈现\t128\n第6章　Text、TextInput等相关知识\t129\n6.1  Text组件\t129\n6.1.1  样式键设置\t129\n6.1.2  其他属性\t131\n6.1.3  Text组件的嵌套\t131\n6.1.4  文本显示的阴影效果\t132\n6.1.5  Text居中显示\t133\n6.1.6  在字符串中插入图像\t135\n6.2  Text组件在两个平台上的不同表现\t136\n6.2.1  只指定fontSize，不指定height\t137\n6.2.2  只指定height，不指定fontSize\t137\n6.2.3  fontSize等于height\t137\n6.2.4  height大于fontSize\t138\n6.2.5  边框在两个平台上的不同表现\t138\n6.3  TextInput组件\t140\n6.3.1  TextInput组件样式键\t140\n6.3.2  TextInput组件的属性\t140\n6.3.3  TextInput组件iOS平台专有属性\t141\n6.3.4  TextInput组件Android平台专有属性\t142\n6.3.5  TextInput组件的成员函数\t142\n6.4  TextInput组件在两个平台上的不同表现\t143\n6.4.1  Android平台的输入下画线\t143\n6.4.2  父组件的alignItems键失效\t144\n6.4.3  只指定fontSize、不指定height\t145\n6.4.4  height等于fontSize\t145\n6.4.5  height大于fontSize\t146\n6.4.6  边框在两个平台上的不同表现\t146\n6.5  TextInput组件的生命周期\t147\n6.5.1  获得焦点\t147\n6.5.2  用户输入\t147\n6.5.3  用户按下提交键\t147\n6.5.4  失去焦点\t148\n6.6  软键盘与键盘事件\t148\n6.7  组件的引用\t151\n6.7.1  定义组件引用\t151\n6.7.2  得到系统定义的组件引用\t151\n6.7.3  调用组件的公开成员函数\t152\n6.7.4  重新设定组件的属性\t152\n6.7.5  获得组件的位置\t154\n6.8  跨平台状态栏组件\t155\n6.8.1  StatusBar组件属性\t155\n6.8.2  StatusBar组件使用示例\t156\n6.8.3  手机状态栏在开发中的处理\t157\n6.8.4  StatusBarIOS API\t158\n6.9  高度自增长的扩展TextInput组件\t159\n6.10  访问操作系统剪贴板\t160\n第7章　组件生命周期、数据存储及React Native应用实现步骤\t163\n7.1  组件生命周期\t163\n7.1.1  getInitialState\t163\n7.1.2  getDefaultProps\t163\n7.1.3  componentWillMount\t164\n7.1.4  componentDidMount\t164\n7.1.5  componentWillReceiveProps\t164\n7.1.6  shouldComponentUpdate\t165\n7.1.7  componentWillUpdate\t165\n7.1.8  componentDidUpdate\t165\n7.1.9  componentWillUnmount\t166\n7.2  读取JSON文件\t166\n7.3  数据持久化操作\t167\n7.3.1  flow语法检查器\t167\n7.3.2  写入数据、错误捕捉\t168\n7.3.3  读取数据\t170\n7.3.4  AsyncStorage API存储数据的无序性\t173\n7.3.5  删除数据\t173\n7.3.6  修改数据\t175\n7.3.7  JSON对象存储\t175\n7.3.8  读取JSON对象\t176\n7.4  数据表操作\t176\n7.5  React Native应用实现步骤、日记例程（上）\t176\n7.5.1  应用原型\t177\n7.5.2  基础组件结构设计\t178\n7.5.3  使用React Native组件搭建静态界面\t180\n7.5.4  React Native组件分层\t188\n7.5.5  实现各组件业务逻辑\t189\n7.5.6  日记例程（上）总结\t190\n第8章　ScrollView和ListView\t200\n8.1  ScrollView组件\t200\n8.1.1  ScrollView组件属性\t200\n8.1.2  ScrollView组件iOS平台专有属性\t201\n8.1.3  ScrollView组件Android平台专有属性\t202\n8.1.4  ScrollView组件的公开成员函数\t203\n8.1.5  RefreshControl组件\t203\n8.1.6  ScrollView组件基本用法\t204\n8.2  ListView组件\t206\n8.2.1  ListView组件的回调函数\t207\n8.2.2  ListView组件的其他属性\t208\n8.2.3  ListView组件的成员函数\t208\n8.3  简单的列表\t208\n8.3.1  准备列表的数据源\t209\n8.3.2  声明状态机变量\t209\n8.3.3  将数据源中的数据拷贝到DataSource中\t210\n8.3.4  定义如何渲染列表中的每一行\t210\n8.3.5  实现简单的列表\t211\n8.3.6  列表栏的高级处理\t217\n8.4  带分段标志的列表\t217\n8.4.1  准备数据源\t218\n8.4.2  声明状态机变量\t218\n8.4.3  将数据源中的数据拷贝到DataSource中\t219\n8.4.4  定义如何渲染每个分栏\t219\n8.4.5  定义如何渲染首、尾栏\t220\n8.4.6  列表间隔渲染\t220\n8.4.7  实现带分段标志的列表\t220\n8.4.8  总结\t221\n8.5  日记例程（下）总结\t221\n第9章　等待提示条、进度条和Switch\t222\n9.1  ProgressBarAndroid组件\t222\n9.1.1  ProgressBarAndroid组件样式设置\t222\n9.1.2  ProgressBarAndroid其他属性\t222\n9.1.3  Android平台等待提示条\t222\n9.1.4  React Native框架中定时器的使用\t224\n9.1.5  Android平台进度条\t225\n9.2  iOS进度条组件\t226\n9.2.1  ProgressViewIOS组件样式设置\t226\n9.2.2  ProgressViewIOS其他属性\t226\n9.2.3  iOS平台进度条\t226\n9.3  iOS平台等待提示条\t227\n9.3.1  ActivityIndicatorIOS组件样式设置\t227\n9.3.2  ActivityIndicatorIOS其他属性\t227\n9.3.3  iOS平台等待提示条例程\t227\n9.4  Switch组件\t229\n9.4.1  Switch组件样式设置\t229\n9.4.2  Switch其他属性\t229\n9.4.3  Switch组件的使用\t229\n第10章　导航组件\t231\n10.1  导航组件的属性\t231\n10.1.1  回调函数\t231\n10.1.2  其他属性\t232\n10.2  导航器\t232\n10.3 NavigationBar\t233\n第11章　手势识别\t240\n11.1 PanResponder API\t240\n11.2  监视器\t240\n11.2.1  指定监视区域\t241\n11.2.2  定义监视器相关变量\t241\n11.2.3  准备监视器的事件处理函数\t241\n11.2.4  建立监视器\t242\n11.2.5  将监视器与监视区域挂接\t242\n11.3  监视事件的生命周期\t242\n11.3.1  单次点击事件的生命周期\t243\n11.3.2  单次点击事件处理\t245\n11.3.3  移动手势事件的生命周期\t245\n11.3.4  监视器异常事件\t247\n11.4  手势识别处理例程\t247\n11.4.1  单点手势——点击、拖动选择百分比参数\t247\n11.4.2  单点手势——带导槽的滑动来电接听或拒接界面\t249\n11.4.3  单点手势——滑动解锁屏幕界面\t252\n11.4.4  单点手势——单点任意方向拉动选择界面\t254\n11.4.5  两点手势\t257\n第12章　网络\t258\n12.1  获取网络状态\t258\n12.1.1  得到当前网络状态\t258\n12.1.2  监听网络状态改变事件\t259\n12.1.3  简单判断是否有网络连接\t260\n12.1.4  判断当前连接是否收费\t260\n12.2  通过HTTP、HTTPS与网络侧交换数据\t260\n12.2.1  发送请求\t260\n12.2.2  接收响应\t263\n12.3  在React Native开发中使用AJAX技术\t264\n第13章　网页浏览器、音视频媒体播放\t266\n13.1  WebView组件样式设置\t266\n13.2  WebView组件其他属性\t266\n13.2.1  非回调函数属性\t266\n13.2.2  回调函数属性\t267\n13.2.3  平台独有属性\t267\n13.2.4  WebView组件成员函数\t268\n13.3  网页浏览器使用例程\t268\n13.3.1  浏览网页例程\t268\n13.3.2  加载本地网页例程\t271\n13.4  音视频媒体播放\t273\n第14章　图片的遍历、存取与显示\t274\n14.1　React Native开发中iOS平台链接库的使用\t274\n14.2  获取手机中所有的图片信息\t276\n14.3  图片信息详解\t278\n14.3.1  Android平台图片信息\t278\n14.3.2  iOS平台图片信息\t278\n14.4  显示从CameraRoll API得到的图片\t279\n14.5  为用户提供图片选择界面\t280\n14.6  图片的保存与读取显示\t282\n14.6.1  保存图片数据\t282\n14.6.2  读取并显示图片\t283\n第15章　选择器、位置相关和应用状态\t284\n15.1  日期、时间选择器\t284\n15.1.1  DatePickerAndroid API\t284\n15.1.2  TimePickerAndroid API\t286\n15.1.3  DatePickerIOS组件\t287\n15.2  Picker组件\t289\n15.2.1  Picker组件的样式设置\t289\n15.2.2  Picker组件的属性\t289\n15.2.3  Picker.Item组件属性\t290\n15.2.4  Picker组件例程\t290\n15.3  PickerIOS\t294\n15.4  MapView组件\t295\n15.4.1  MapView组件样式设置\t296\n15.4.2  MapView组件特有的跨平台属性\t296\n15.4.3  MapView组件例程\t297\n15.5  AppState API\t299\n15.5.1  AppState API用途与用法\t299\n15.5.2  AppState API例程\t299\n15.6  获取地理位置\t300\n15.7  VibrationIOS API\t302\n第16章　使用ES 6语法开发\t303\n16.1  React Native组件导入\t303\n16.2  属性声明\t304\n16.3  成员变量声明\t304\n16.4  状态机变量声明\t305\n16.5  回调函数绑定\t306\n16.6  类的静态成员变量与静态成员函数\t307\n第17章　混合开发高级篇\t309\n17.1  使用Objective-C语言创建私有的React Native组件\t309\n17.1.1  增加FLAnimatedImage链接库\t309\n17.1.2  创建视图管理类\t311\n17.1.3  封装开源代码中的视图类\t312\n17.1.4  在React Native侧调用私有组件\t314\n17.1.5  例程运行效果\t315\n17.2  使用Swift语言创建私有的React Native组件\t316\n17.2.1  整合开源项目\t316\n17.2.2  建立组件管理者和桥接头文件\t319\n17.2.3  Objective-C与React Native接口部分\t321\n17.2.4  使用Swift语言实现组件控制\t322\n17.2.5  在React Native侧调用私有组件\t324\n17.2.6  例程运行效果\t325\n17.3  使用Android SDK创建私有的React Native组件\t325\n17.3.1  准备原生代码UI组件\t326\n17.3.2  实现原生UI管理类\t327\n17.3.3  创建原生UI实例\t328\n17.3.4  实现对属性的支持\t328\n17.3.5  建立原生UI包\t328\n17.3.6  注册原生UI管理类\t329\n17.3.7  对应的React Native侧实现\t329\n17.3.8  运行俯视视图例程\t331\n第18章　项目配置、生成发布版本安装包及其他\t332\n18.1  iOS平台项目配置\t332\n18.2  iOS平台应用发布\t336\n18.3  Android平台项目配置\t336\n18.4  Android平台应用生成发布版本安装包\t338\n18.4.1  生成发布密钥\t338\n18.4.2  修改gradle配置文件\t338\n18.4.3  生成发布版本安装包\t339\n18.5  其他组件与API\t339\n18.5.1  动画相关\t339\n18.5.2  其他未讨论的组件与API\t340\n附录A　ECMAScript 2015语法参考\t341",
+		"pages": "364",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28779381.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28779381.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28779381.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26809232\/",
+		"id": "26809232",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121287072",
+		"isbn13": "9787121287077",
+		"title": "React Native跨平台移动应用开发",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26809232",
+		"alt_title": "",
+		"author_intro": "阙喜涛，湖南省吉首市人，北京邮电大学研究生，专注智能手机应用开发十一年，任职于东信北邮信息技术有限公司，先后参与开发过中国移动POC系统、贵州移动一卡多号系统、浙江移动应用商店系统开发等等。开发移动应用下载量超过25万。",
+		"summary": "React Native是Facebook公司最新推出的，强大的、开源的跨平台移动应用开发框架，它能大幅减少跨平台移动应用开发的工作量，并且代码结构清晰、简单易懂。同时React Native框架采用模块化结构，使应用版本的更新迭代非常简单。随着它的日趋成熟，React Native必然会成为移动应用开发的主流技术。\n《React Native跨平台移动应用开发》由浅入深、系统地介绍了使用React Native框架跨平台开发所需要用到的知识。《React Native跨平台移动应用开发》每一章都专注于阐述某一方面的知识，配合若干个原创的、精小的例程，能让读者系统、快速地掌握该方面知识。\n《React Native跨平台移动应用开发》是按照有基本的编程基础知识，刚学习JavaScript基本语法的读者最佳学习路径来编写的。有一定基础的开发人员也可以将本书作为React Native开发的“字典”来使用，在开发时可以快速查找相关知识点的细节。\n希望通过《React Native跨平台移动应用开发》，能将最新的React Native开发技术介绍给国内广大开发者，让国内移动应用开发进入一个新的时代，让开发者用比较少的精力就能高效、美观地完成移动应用开发。",
+		"price": "79.00元"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 6,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["Cassio de Sousa Antonio"],
+		"pubdate": "2015-12-24",
+		"tags": [{
+			"count": 3,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 3,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 1,
+			"name": "计算机",
+			"title": "计算机"
+		}, {
+			"count": 1,
+			"name": "软件开发",
+			"title": "软件开发"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28393855.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28393855.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28393855.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28393855.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26718753\/",
+		"id": "26718753",
+		"publisher": "",
+		"isbn10": "1484212614",
+		"isbn13": "9781484212615",
+		"title": "Pro React",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26718753",
+		"alt_title": "",
+		"author_intro": "Cássio de Souza Antonio started programming 20 years ago with a Sinclair Spectrum and built a career as Software Engineer and Technical Manager. He developed and contributed to projects for major brands such as Microsoft, Coca-Cola, Unilever, HSBC among others. Currently Cássio works as a consultant after having his startup acquired in late 2014.",
+		"summary": "Pro React teaches you how to successfully structure increasingly complex front-end applications and interfaces. This book explores the React library in depth as well as detailing additional tools and libraries in the React ecosystem, enabling you to create complete, complex applications.\nYou will learn how to use React completely, and learn best practices for creating interfaces in a composable way. You will also cover additional tools and libraries in the React ecosystem (such as React Router and Flux architecture). Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given no-nonsense, in-depth treatment, and every chapter details common problems and how to avoid them.\nIf you already have experience creating front-end apps using jQuery or perhaps other JavaScript frameworks, but need to solve the increasingly common problem of structuring complex front-end applications, then this book is for you. Start working with React like a pro - add Pro React to your library today.",
+		"price": ""
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 2,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["刘一奇"],
+		"pubdate": "2016-12",
+		"tags": [{
+			"count": 5,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 4,
+			"name": "redux",
+			"title": "redux"
+		}, {
+			"count": 4,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 2,
+			"name": "Coding",
+			"title": "Coding"
+		}, {
+			"count": 2,
+			"name": "react",
+			"title": "react"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29196005.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "第一部分基础篇1\n第1 章技术简介. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2\nReact 2\nRedux 3\nNode 与Universal 渲染4\nBabel 5\nWebpack 5\n总结6\n第2 章在Node.js 中运行React . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7\n例子7\n编写React 组件7\n在Node.js 中渲染组件8\n使用Babel 编译运行Node.js 程序9\nRequire Hook 简介9\n使用Require Hook 的步骤9\n总结10\n第3 章在浏览器中运行React. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\n例子11\n组件复用11\n在浏览器中渲染React 组件12\n使用Webpack 打包编译12\n在浏览器中运行14\n总结14\n第4 章开发服务器和热替换. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n例子15\n安装16\n配置Babel 16\n使用react-hmre 预设16\nreact-hmre 的功能17\n配置Webpack 18\n配置Express 服务器21\n总结22\n第5 章React 的创新语法：JSX . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\n例子24\nJSX 简介24\nJSX 常用语法25\n类似HTML 25\nJavaScript 表达式26\n样式27\n注释27\n数组27\nHTML 标签vs. React 组件28\n总结29\n第6 章React 的数据载体：state、props 与context. . . . . . . . . . . . . . . . . . . . . 30\n例子30\nState 31\nProps 32\n使用props 33\n验证props 33\n组合使用state 与props 35\nContext 36\n使用props 传递数据36\n使用context 传递数据38\nProps 与context 的适用场景40\n在React 开发者工具中查看41\n总结42\n第7 章React 的两个对象：ReactElement 与组件实例. . . . . . . . . . . . . . . . . . 43\n例子43\nReactElement 44\nJSX 中的闭合标签是ReactElement 44\nReactElement 是什么44\nReactElement 的两种类型45\nReact 组件的渲染流程45\n组件实例46\n组件实例简介46\n组件、ReactElement 与组件实例的区别47\n组件实例的生灭：生命周期函数48\nReact 组件中的this 49\n总结55\n第8 章初识Redux . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56\n例子56\nAction 56\nReducer 57\n定义57\n纯函数58\n不能修改参数state 58\nStore 60\n职能60\n创建60\n获取与监听60\n发起action 61\n总结62\n第9 章Action 创建函数与Redux Thunk 中间件. . . . . . . . . . . . . . . . . . . . . . . 64\n例子64\nAction 创建函数65\n编写65\n发起65\n意义66\nRedux unk 中间件66\n功能66\n安装激活67\n总结69\n第二部分进阶篇71\n第10 章React 与Redux 的连接：手动连接. . . . . . . . . . . . . . . . . . . . . . . . . . . . 72\n例子72\n手动连接的步骤73\n编写React 组件73\n编写Redux 75\n将Redux 手动连接到React 组件76\n手动连接的缺点77\n总结77\n第11 章React 与Redux 的连接：使用react-redux 连接. . . . . . . . . . . . . . . . 78\n例子78\n连接步骤78\n多种写法81\n连接原理85\nProvider 工作原理85\nconnect 工作原理86\n展示组件与容器组件86\n总结87\n第12 章实现撤销\/重做. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 88\n例子88\n撤销\/重做88\nRedux 开发者工具92\n安装92\n使用93\nRedux 并不“低效” 97\n总结98\n第13 章测试. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99\n例子99\n测试工具100\nMocha 100\nEnzyme 101\nExpect 102\n测试action 创建函数103\n测试React 组件106\n测试容器组件108\n测试reducer 纯函数110\n运行测试脚本111\n总结112\n第14 章Redux 的全局状态与React 组件的内部状态. . . . . . . . . . . . . . . . . . . 114\n例子114\n全局状态与内部状态的定义114\n全局状态完全替代了内部状态？ 115\n全局状态与内部状态的适用场景118\n总结118\n第15 章React 与Redux 中的数组处理. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119\n例子119\nreduce() 119\n概述119\n语法120\n示例120\nfilter() 121\n概述121\n语法121\n示例122\nmap() 122\n概述122\n语法122\n示例123\nevery() 123\n概述123\n语法123\n示例124\nsome() 124\n概述124\n语法124\n示例125\n展开运算符125\n概述125\n语法125\n示例125\n总结126\n第16 章Redux 的大舞台：异步. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127\n例子127\nJavaScript 事件驱动编程127\nPromise 129\nRedux 中的异步132\n异步action 创建函数133\n异步请求前后的state 变化133\nState tree 结构135\n查看state tree 136\n如何构建state tree 136\n异步与变化139\n准备工作139\n追踪异步与变化143\n总结145\n第17 章自定义Redux 中间件. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 147\n例子147\n中间件的功能147\n中间件的编写148\n中间件的执行149\n自定义API 中间件151\n总结154\n第18 章Universal 渲染. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 155\n例子155\n公用一套代码156\n服务端渲染156\n客户端渲染158\n总结159\n第三部分拓展篇161\n第19 章Universal 渲染神器：Webpack 同构工具. . . . . . . . . . . . . . . . . . . . . . 162\n例子162\nWebpack 同构工具的功能163\n服务端调用164\n客户端调用165\n真实场景167\n配置服务器的入口167\n独立开发服务器168\n配置Webpack 169\n配置Webpack 同构工具171\n在服务端和客户端使用require() 173\n总结174\n第20 章多页面的实现：路由. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 175\n例子175\n路由也是组件176\n路由匹配177\n使用Link 和IndexLink 导航178\n服务端路由179\n总结181\n第21 章多页面下的异步操作. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 182\n例子182\nredux-amrc 182\n功能183\n配置184\n使用184\nAction 与state 185\nAPI 186\n多页面下的异步操作187\n编写测试API 187\n预载数据188\n手动加载数据191\n操作数据192\n总结193\n第22 章使用Bootstrap . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 194\n例子194\nbootstrap-loader 195\n基本用法195\n配置196\nPostCSS 与Autoprefixer 200\n简介200\n用法201\nReact-Bootstrap 202\n总结204\n第四部分实战篇205\n第23 章搭建大型项目. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 206\n例子206\n开发服务器209\n开发环境下的Webpack 配置209\nWebpack 同构工具的配置212\n独立的开发服务器213\n启动开发服务器214\n前端服务器215\n配置前端服务器215\n使用组件渲染HTML 页面218\n启动前端服务器221\nAPI 服务器222\n配置API 服务器222\n启动API 服务器223\n生产环境下的构建编译224\n编译运行Node.js 224\n生产环境下的Webpack 配置225\n公用代码229\n工具集229\n路由与页面231\n质量保证235\n测试235\nAirbnb 编码规范239\n去毛机246\nEditorConfig 248\n总结248\n第24 章表单. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 250\n例子250\n高阶组件ReduxForm 251\n设置252\n简单表单253\n同步验证表单256\n异步失焦验证表单258\n提交表单到服务器260\n总结264\n第25 章图表与表格. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265\n例子265\n图表组件265\n表格组件269\n从服务器获取数据272\n总结275\n第26 章用户认证. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 277\n例子277\n编写认证API 279\nExpress-session 中间件279\n加载当前认证状态280\n登录与登出280\nAPI 权限保护281\n发送cookie 282\n编写用于认证的action 创建函数283\n登录页面和导航栏285\n前端路由保护290\n总结291\n第27 章部署. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 292\n例子292\nHeroku 平台293\n安装工具并登录293\n准备程序293\n部署程序294\n其他操作295\n持续集成296\n与生产相关的问题298\n总结299\n第28 章其他资源. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 300\n在线文档300\n参与社区活动301",
+		"pages": "320",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29196005.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29196005.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29196005.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26928402\/",
+		"id": "26928402",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121302675",
+		"isbn13": "9787121302671",
+		"title": "React与Redux开发实例精解",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26928402",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "《React与Redux开发实例精解》共分四部分，全面介绍如何使用React 与Redux 进行Web 开发。第一部分是基础篇，介绍React 与Redux 的基础知识；第二部分是进阶篇，通过精彩的官方示例学习React 与Redux；第三部分是拓展篇，主要学习一些优秀的第三方拓展；第四部分是实战篇，将会带领读者一步步搭建大型Web 应用程序。\n《React与Redux开发实例精解》适合熟悉JavaScript 编程，有意使用React 与Redux 搭建Web 应用的程序员学习参考。",
+		"price": "59"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 3,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["贾森·科尔基特,杰弗里·勒平 迈克尔·韦森 著"],
+		"pubdate": "2016-4",
+		"tags": [{
+			"count": 3,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 1,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 1,
+			"name": "前端",
+			"title": "前端"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29111581.jpg",
+		"binding": "平装",
+		"translator": [],
+		"catalog": "目录\n第1章 什么是React 1\n1.1 定义React 1\n1.2 为什么是React 2\n1.3 React解决什么问题 4\n1.4 React不只是另一个框架 5\n1.4.1 Ember.js 7\n1.4.2 AngularJS 10\n1.4.3 React 14\n1.5 React的概念和术语 23\n1.5.1 React入门 23\n1.5.2 组件 24\n1.5.3 虚拟DOM 25\n1.5.4 JSX 26\n1.5.5 属性 27\n1.5.6 状态 27\n1.5.7 Flux 27\n1.5.8 工具 28\n1.5.9 附件 28\n1.6 小结 30\n第2章 React核心 31\n2.1 React 31\n2.1.1 React.createClass 32\n2.1.2 React.Children.map 33\n2.1.3 React.Children.forEach 34\n2.1.4 React.Children.count 35\n2.1.5 React.Children.only 36\n2.1.6 React.createElement 37\n2.1.7 React.cloneElement 38\n2.1.8 React.DOM 38\n2.1.9 React.createFactory 39\n2.1.10 React.render 39\n2.1.11 React.renderToString 40\n2.1.12 React.findDOMNode 40\n2.2 探索React组件 41\n2.3 理解组件的属性和方法 43\n2.4 组件的生命周期和渲染 45\n2.4.1 render 46\n2.4.2 getInitialState 46\n2.4.3 getDefaultProps 46\n2.4.4 mixins 47\n2.4.5 propTypes 49\n2.4.6 statics 51\n2.4.7 displayName 51\n2.4.8 componentWillMount 51\n2.4.9 componentDidMount 51\n2.4.10 componentWillReceiveProps 52\n2.4.11 shouldComponentUpdate 52\n2.4.12 componentWillUpdate 52\n2.4.13 componentDidUpdate 53\n2.4.14 componentWillUnmount 53\n2.5 React元素 57\n2.6 React工厂 59\n2.7 小结 60\n第3章 JSX原理 61\n3.1 为什么使用JSX而不用常规的JavaScript 61\n3.2 JSX转换器 64\n3.3 JSX如何将类XML句法转换为可用的JavaScript 67\n3.4 展开属性及其他JSX相关 78\n3.5 小结 92\n第4章 构建React网页应用程序 93\n4.1 概述你的应用程序的基础功能 93\n4.2 组件思维 94\n4.2.1 线框图 95\n4.2.2 重写现有应用程序 98\n4.3 为你的应用创建必需的组件 101\n4.4 测试你的应用程序 111\n4.4.1 Simulate 111\n4.4.2 renderIntoDocument 112\n4.4.3 mockComponent 112\n4.4.4 isElement 112\n4.4.5 isElementOfType 112\n4.4.6 isDOMComponent 112\n4.4.7 isCompositeComponent 113\n4.4.8 isCompositeComponentWithType 113\n4.4.9 findAllInRenderedTree 113\n4.4.10 scryRenderedDOMComponentsWithClass 113\n4.4.11 findRenderedDOMComponentsWithClass 113\n4.4.12 scryRenderedDOMComponentsWithTag 114\n4.4.13 findRenderedDOMComponentsWithTag 114\n4.4.14 scryRenderedComponentsWithType 114\n4.4.15 findRenderedComponentsWithType 114\n4.5 运行你的应用程序 116\n4.6 小结 120\n第5章 介绍React的应用程序架构 121\n5.1 Flux是什么以及为什么它和经典MVC框架不同 121\n5.2 Flux基础组件 125\n5.2.1 分派器 126\n5.2.2 存储仓 126\n5.2.3 行为 126\n5.2.4 视图 127\n5.2.5 如何集成React和Flux 127\n5.3 小结 150\n第6章 使用Flux构建React应用程序 151\n6.1 构建你的应用程序 151\n6.2 创建应用程序的分派器、存储仓、行为以及React组件 152\n6.2.1 分派器 153\n6.2.2 存储仓 153\n6.2.3 行为 165\n6.2.4 React组件 168\n6.3 编写测试 180\n6.4 运行应用程序 181\n6.5 小结 182",
+		"pages": "182",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29111581.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29111581.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29111581.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26800722\/",
+		"id": "26800722",
+		"publisher": "人民邮电出版社",
+		"isbn10": "7115419434",
+		"isbn13": "9787115419439",
+		"title": "React导学",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26800722",
+		"alt_title": "",
+		"author_intro": "Cory Gackenheimer 是来自美国中西部的软件工程师。他在普渡大学进行过物理学的学习，在那他致力于超高频示波器的图像分析软件。他的软件经验使他能广泛地利用各种技术，包括JavaScript。他还是jQuery Mobile团队的成员，并频繁地贡献该开源项目。在业余时间中，他喜欢工作在基于Node.js的项目上，以及将React吸收到其项目中。",
+		"summary": "React是一种JavaScript框架，起源于Facebook公司，用于构建复杂且可维护的用户界面。\n本书是介绍React的快速实践指南。全书共6章，系统地概括了有关React的方方面面，详细介绍了React的概念、核心、JSX原理、网页应用的构建、程序架构、Flux的用法等内容。\n本书适合对React感兴趣的读者以及想要使用React进行前端开发的读者阅读参考。",
+		"price": "39"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 0,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["Akshat Paul", "Abhishek Nalwaya"],
+		"pubdate": "2015-12-30",
+		"tags": [{
+			"count": 2,
+			"name": "javascript",
+			"title": "javascript"
+		}, {
+			"count": 1,
+			"name": "iOS",
+			"title": "iOS"
+		}, {
+			"count": 1,
+			"name": "react",
+			"title": "react"
+		}, {
+			"count": 1,
+			"name": "编程",
+			"title": "编程"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28390811.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "171",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28390811.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28390811.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28390811.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26715911\/",
+		"id": "26715911",
+		"publisher": "Apress",
+		"isbn10": "1484213963",
+		"isbn13": "9781484213964",
+		"title": "React Native for iOS Development",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26715911",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "React Native for iOS Development is your hands-on guide to developing native iOS apps with ease. React Native challenges the status quo of native iOS development with revolutionary components, asynchronous execution, unique methods for touch handling, and much more. React Native eliminates the need for Objective-C and instead uses the power of JavaScript and React to build excellent native apps.\nYou will begin by understanding the path breaking concepts of React.js, which makes it distinctive. You will set up React Native and begin exploring the anatomy of React Native apps. You’ll also learn about flux architecture, how it differs from MVC, and how you can include it in your React Native project to solve problems differently and efficiently. Next, you will learn to create stunning user interfaces and interact with various device capabilities. You will then boost your development by including some popular packages already developed by the React Native community that will helps you write less but do more. Finally, you’ll learn to how write test cases and submit your application to App Store.\nUsing real-world examples with an example-driven approach, you will learn by doing and have a substantial running app at the end of each chapter. Start using React Native for your iOS development using this book today.",
+		"price": "USD 45.88"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 3,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["Cory Gackenheimer"],
+		"pubdate": "2015-9-2",
+		"tags": [{
+			"count": 4,
+			"name": "ReactJS",
+			"title": "ReactJS"
+		}, {
+			"count": 3,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 1,
+			"name": "软件开发",
+			"title": "软件开发"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s28286418.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "170",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28286418.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28286418.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28286418.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26602578\/",
+		"id": "26602578",
+		"publisher": "Apress",
+		"isbn10": "1484212460",
+		"isbn13": "9781484212462",
+		"title": "Introduction to React",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26602578",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "",
+		"price": "USD 24.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 5,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "From apprentice to master",
+		"author": ["Juho Vepsäläinen"],
+		"pubdate": "2016-2-15",
+		"tags": [{
+			"count": 2,
+			"name": "前端开发",
+			"title": "前端开发"
+		}, {
+			"count": 1,
+			"name": "JavaScript",
+			"title": "JavaScript"
+		}, {
+			"count": 1,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 1,
+			"name": "Webpack",
+			"title": "Webpack"
+		}, {
+			"count": 1,
+			"name": "programming",
+			"title": "programming"
+		}, {
+			"count": 1,
+			"name": "编程",
+			"title": "编程"
+		}],
+		"origin_title": "",
+		"image": "https://img1.doubanio.com\/mpic\/s28508329.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "284",
+		"images": {
+			"small": "https://img1.doubanio.com\/spic\/s28508329.jpg",
+			"large": "https://img1.doubanio.com\/lpic\/s28508329.jpg",
+			"medium": "https://img1.doubanio.com\/mpic\/s28508329.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26744268\/",
+		"id": "26744268",
+		"publisher": "CreateSpace Independent Publishing Platform",
+		"isbn10": "152391050X",
+		"isbn13": "9781523910502",
+		"title": "SurviveJS - Webpack and React",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26744268",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "",
+		"price": "USD 29.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 1,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["Ethan Holmes", "Tom Bray"],
+		"pubdate": "2016-1-6",
+		"tags": [{
+			"count": 2,
+			"name": "Native",
+			"title": "Native"
+		}, {
+			"count": 2,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 1,
+			"name": "Programming",
+			"title": "Programming"
+		}, {
+			"count": 1,
+			"name": "WebApp",
+			"title": "WebApp"
+		}, {
+			"count": 1,
+			"name": "Web前端",
+			"title": "Web前端"
+		}, {
+			"count": 1,
+			"name": "Web开发",
+			"title": "Web开发"
+		}, {
+			"count": 1,
+			"name": "reactnative",
+			"title": "reactnative"
+		}, {
+			"count": 1,
+			"name": "前端",
+			"title": "前端"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s28378611.jpg",
+		"binding": "Paperback",
+		"translator": [],
+		"catalog": "",
+		"pages": "168",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s28378611.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s28378611.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s28378611.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26703694\/",
+		"id": "26703694",
+		"publisher": "Packt Publishing - ebooks Account",
+		"isbn10": "1785885189",
+		"isbn13": "9781785885181",
+		"title": "Getting Started with React Native",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26703694",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "",
+		"price": "USD 29.99"
+	}, {
+		"rating": {
+			"max": 10,
+			"numRaters": 1,
+			"average": "0.0",
+			"min": 0
+		},
+		"subtitle": "",
+		"author": ["【美】League of Extraordinary Developers"],
+		"pubdate": "2016-11",
+		"tags": [{
+			"count": 2,
+			"name": "React",
+			"title": "React"
+		}, {
+			"count": 2,
+			"name": "前端",
+			"title": "前端"
+		}, {
+			"count": 1,
+			"name": "web",
+			"title": "web"
+		}],
+		"origin_title": "",
+		"image": "https://img3.doubanio.com\/mpic\/s29163930.jpg",
+		"binding": "平装",
+		"translator": ["寸志", "等"],
+		"catalog": "推荐序1\tIII\n推荐序2\tV\n推荐序3\tVII\n前言\tIX\n第 1 章?React 简介\t1\n背景介绍\t1\n本书概览\t3\nComponent的创建和复合\t3\n进阶\t5\nReact工具\t6\nReact实践\t6\n第 2 章?JSX\t8\n什么是JSX\t9\n使用JSX的好处\t10\n更加熟悉\t10\n更加语义化\t10\n更加直观\t11\n关注点分离\t12\n复合组件\t12\n定义一个自定义组件\t12\n使用动态值\t13\n子节点\t14\nJSX与HTML有何不同\t16\n属性\t16\n条件判断\t17\n非DOM属性\t19\n事件\t21\n注释\t22\n特殊属性\t23\n样式\t23\n没有JSX的React\t24\n创建React元素\t24\n延伸阅读及参考引用\t25\nJSX官方规范\t25\n第 3 章?组件的生命周期\t26\n生命周期方法\t26\n实例化\t27\n存在期\t27\n销毁&清理期\t27\n实例化\t27\ncomponentWillMount\t28\nrender\t28\ncomponentDidMount\t29\n存在期\t30\ncomponentWillReceiveProps\t30\nshouldComponentUpdate\t30\ncomponentWillUpdate\t31\ncomponentDidUpdate\t31\n销毁&清理期\t32\ncomponentWillUnmount\t32\n反模式：把计算后的值赋给state\t32\n总结\t33\n第 4 章?数据流\t34\nProps\t35\nPropTypes\t36\ndefaultProps\t37\nState\t37\n放在state和props的各是哪些部分\t40\n无状态的函数式组件\t40\n总结\t41\n第 5 章?事件处理\t42\n绑定事件处理器\t43\n事件和状态\t44\n根据状态进行渲染\t44\n更新状态\t45\n状态没有“更新”!\t46\n事件对象\t47\n总结\t48\n第 6 章?组件的复合\t49\n扩展HTML\t50\n组件复合的例子\t50\n组装HTML\t51\n追踪状态\t53\n整合到父组件当中\t54\n父组件与子组件的关系\t56\n总结\t59\n第 7 章?高阶组件和Mixins\t60\n简单的例子\t60\n常见使用场景\t63\n总结\t63\n第 8 章?DOM操作\t64\n访问受控的DOM节点\t65\n在组件内部查找DOM节点\t66\n整合非React类库\t67\n侵入式插件\t70\n总结\t72\n第 9 章?表单\t73\n无约束的组件\t74\n约束组件\t76\n表单事件\t78\nLabel\t79\n文本框和 Select\t79\n复选框和单选框\t82\n表单元素的name属性\t84\n多个表单元素与change处理器\t86\n自定义表单组件\t89\nFocus\t93\n可用性\t93\n把要求传达清楚\t94\n不断地反馈\t94\n迅速响应\t94\n符合用户的预期\t95\n可访问\t95\n减少用户的输入\t96\n总结\t97\n第 10 章?动画\t98\nCSS渐变组\t99\n给渐变class添加样式\t99\n渐变生命周期\t100\n使用渐变组的隐患\t101\n间隔渲染\t101\n使用requestAnimationFrame实现间隔渲染\t102\n使用setTimeout实现间隔渲染\t104\n弹簧动画\t105\n总结\t106\n第 11 章?性能优化\t107\nshouldComponentUpdate\t107\n键（key）\t109\n总结\t111\n第 12 章?服务端渲染\t112\n渲染函数\t113\nReact.renderToString\t113\nReact.renderToStaticMarkup\t114\n用React.renderToString还是用React.renderToStaticMarkup\t114\n服务端组件生命周期\t115\n设计组件\t116\n异步状态\t118\n同构路由\t121\n单例、实例及上下文\t121\n总结\t122\n第 13 章?开发工具\t123\n构建工具\t123\nBrowserify\t124\n建立一个Browserify项目\t124\n对代码做出修改\t126\nWatchify\t127\n构建\t127\nWebpack\t127\nWebpack与React\t128\n调试工具\t131\n基础工具\t131\n总结\t133\n第 14 章?测试\t134\n上手\t135\n测试的类型\t135\n工具\t136\n使用Jest和Enzyme测试React组件\t136\n编写组件的内容的断言\t136\n测试组件的方法和DOM事件\t143\n编写子组件的断言\t144\n总结\t147\n第 15 章?架构模式\t148\n路由\t149\nreact-router\t150\nFlux\t152\n数据流\t152\nFlux各个部分\t153\nDispatcher\t153\nAction\t154\nStore\t154\n控制视图\t155\n管理多个Store\t156\n总结\t161\n第 16 章?不可变性\t162\n性能优势\t162\n性能消耗\t163\n架构优势\t164\n使用Immutability Helpers Addon\t164\n使用seamless-immutable\t166\n使用Immutable.js\t167\nImmutable.Map\t168\nImmutable.Vector\t168\n总结\t169\n第 17 章?其他使用场景\t170\n桌面应用\t171\n游戏\t172\n电子邮件\t177\n绘图\t183\n总结\t186",
+		"pages": "200",
+		"images": {
+			"small": "https://img3.doubanio.com\/spic\/s29163930.jpg",
+			"large": "https://img3.doubanio.com\/lpic\/s29163930.jpg",
+			"medium": "https://img3.doubanio.com\/mpic\/s29163930.jpg"
+		},
+		"alt": "https:\/\/book.douban.com\/subject\/26918475\/",
+		"id": "26918475",
+		"publisher": "电子工业出版社",
+		"isbn10": "7121301202",
+		"isbn13": "9787121301209",
+		"title": "React（第2版）：引领未来的用户界面开发框架",
+		"url": "https:\/\/api.douban.com\/v2\/book\/26918475",
+		"alt_title": "",
+		"author_intro": "",
+		"summary": "Facebook的开源框架React.js，基于Virtual DOM重新定义了用户界面的开发方式，彻底革新了大家对前端框架的认识，将PHP风格的开发方式迁移到客户端应用开发。其优势在于可以与各种类库、框架搭配使用。《React（第2版）：引领未来的用户界面开发框架》由多位一线专家精心撰写，采用全程实例介绍和剖析了React.js的方方面面，适合广大前端开发者、设计人员，以及所有对未来技术趋势感兴趣者阅读。《React（第2版）：引领未来的用户界面开发框架》前版作为React首作推出之后，React生态继续蓬勃发展，技术及社区都在不断推陈出新。《React（第2版）：引领未来的用户界面开发框架》诸位专家作者适时推出新版，全面更新示例，用 ES6重写代码，摒弃社区弃用范式，新增无状态组件、不可变数据、Redux等热点内容。阅读《React（第2版）：引领未来的用户界面开发框架》书，不但可以夯实 React开发基础，更能全方位紧跟整个React生态！",
+		"price": "69"
+	}]
+}

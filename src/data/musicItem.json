@@ -1,0 +1,53 @@
+{
+	"rating": {
+		"max": 10,
+		"average": "8.0",
+		"numRaters": 85,
+		"min": 0
+	},
+	"author": [{
+		"name": "林忆莲"
+	}],
+	"alt_title": "",
+	"image": "https://img1.doubanio.com\/spic\/s3204239.jpg",
+	"title": "傾斜都市燒燒燒",
+	"mobile_link": "https:\/\/m.douban.com\/music\/subject\/3163008\/",
+	"summary": "林忆莲 \/ 专辑 \/ 1990-12-1 \/ 华纳国际音乐股份有限公司 \/ CD",
+	"attrs": {
+		"publisher": ["华纳国际音乐股份有限公司"],
+		"singer": ["林忆莲"],
+		"version": ["专辑"],
+		"pubdate": ["1990-12-1"],
+		"title": ["傾斜都市燒燒燒"],
+		"media": ["CD"],
+		"tracks": ["01、「倾斜都市烧烧烧 Mega Mix」\n02、「情人的眼泪」[缺]\n03、「匆匆鬼话鬼匆匆」\n04、「埃及玫瑰 1,000 打」\n05、「倾斜 114' Power Mix」\n06、「无憾 New Mix」\nCD bonus track\n07、「前尘 Karaoke」"],
+		"discs": ["1"]
+	},
+	"alt": "https:\/\/music.douban.com\/subject\/3163008\/",
+	"id": "3163008",
+	"tags": [{
+		"count": 29,
+		"name": "林忆莲"
+	}, {
+		"count": 13,
+		"name": "香港"
+	}, {
+		"count": 11,
+		"name": "Pop"
+	}, {
+		"count": 7,
+		"name": "粤语"
+	}, {
+		"count": 6,
+		"name": "1990"
+	}, {
+		"count": 3,
+		"name": "流行"
+	}, {
+		"count": 3,
+		"name": "女声"
+	}, {
+		"count": 3,
+		"name": "EP"
+	}]
+}
