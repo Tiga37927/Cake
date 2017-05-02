@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import {
     View,
-    ListView,
+    Text,
     ScrollView,
     StyleSheet
 } from 'react-native';
@@ -13,7 +13,7 @@ import Util from '../common/utils';
 import Header from './Header';
 import BookItem from './BookItem';
 
-export default class BookDetail extends Component {
+class BookDetail extends Component {
     constructor() {
         super();
         this.state = {
@@ -25,17 +25,19 @@ export default class BookDetail extends Component {
     }
     handleGetBookDetail() {
         let _this = this;
-        let opt = {
-            url: ServiceURL.book_detail_id + this.props.bookID,
-            type: 'get',
-            success: function (data) {
-                _this.setState({bookData: data})
-            },
-            fail: function (error) {
-                alert(error)
-            }
-        };
-        Util.getRequest(opt);
+        let data = require('../data/bookItem.json');
+        this.setState({bookData: data})
+        // let opt = {
+        //     url: ServiceURL.book_detail_id + this.props.bookID,
+        //     type: 'get',
+        //     success: function (data) {
+        //         _this.setState({bookData: data})
+        //     },
+        //     fail: function (error) {
+        //         alert(error)
+        //     }
+        // };
+        // Util.getRequest(opt);
     }
     render() {
         return (
@@ -55,7 +57,9 @@ export default class BookDetail extends Component {
                                 <Text style={styles.title}>作者简介</Text>
                                 <Text style={styles.text}>{this.state.bookData.author_intro}</Text>
                             </View>
-                            <View style={{height: 55}}></View>
+                            <View style={{height: 55}}>
+
+                            </View>
                         </view>
                         : Util.loading
                 }
@@ -82,3 +86,4 @@ const styles = StyleSheet.create({
         color: '#000'
     }
 });
+module.exports = BookDetail;

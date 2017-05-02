@@ -20,7 +20,7 @@ export default class DoubleProject extends Component {
     constructor() {
         super();
         this.state = {
-            selectedTab: 'home'
+            selectedTab: 'book'
         }
     }
     render() {

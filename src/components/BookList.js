@@ -29,34 +29,41 @@ export default class BookList extends Component {
     componentDidMount() {
         this.handleGetData();
     }
-    handleGetData() {
+    async handleGetData() {
         // 获取数据，开启loading
         this.setState({hasLoad: false});
         // 请求数据
         let _this = this;
         // let url = ServiceUrl.book_search.data_utl + "?count=20&q=" + this.state.keywords;
-        let url = ServiceUrl.book_search.test_url;
-        let opt = {
-            url: url,
-            type: 'get',
-            success: function (data) {
-                if (!data.books || data.books.length == 0) {
-                    return alert("未查询到相关数据")
-                }
-                // 如果成功，设置下载状态和数据源
-                let ds = new ListView.DataSource({
-                    rowHasChanged: (oldRow, newRow) => oldRow !== newRow
-                });
-                _this.setState({
-                    hasLoad: true,
-                    dataSource: ds.cloneWithRows(data.books)
-                });
-            },
-            fail: function(error) {
-                alert(error)
-            }
-        };
-        Util.getRequest(opt)
+        let data = require('../data/books.json');
+        let ds = new ListView.DataSource({
+            rowHasChanged: (oldRow, newRow) => oldRow !== newRow
+        });
+        await this.setState({
+            hasLoad: true,
+            dataSource: ds.cloneWithRows(data.books)
+        });
+        // let opt = {
+        //     url: url,
+        //     type: 'get',
+        //     success: function (data) {
+        //         if (!data.books || data.books.length == 0) {
+        //             return alert("未查询到相关数据")
+        //         }
+        //         // 如果成功，设置下载状态和数据源
+        //         let ds = new ListView.DataSource({
+        //             rowHasChanged: (oldRow, newRow) => oldRow !== newRow
+        //         });
+        //         _this.setState({
+        //             hasLoad: true,
+        //             dataSource: ds.cloneWithRows(data.books)
+        //         });
+        //     },
+        //     fail: function(error) {
+        //         alert(error)
+        //     }
+        // };
+        // Util.getRequest(opt)
     }
     // textinput onchange
     handleChangeText(text) {
@@ -69,13 +76,14 @@ export default class BookList extends Component {
         this.handleGetData();
     }
     handleShowDetail(bookID) {
-        let detailRoute = {
+        let DetailRoute = {
             component: BookDetail,
+            name: 'BookDetail',
             passProps: {
                 bookID: bookID
             }
         };
-        this.props.navigator.push(detailRoute);
+        this.props.navigator.push(DetailRoute);
     }
     render() {
         return (
@@ -91,7 +99,7 @@ export default class BookList extends Component {
                         <ListView
                             dataSource={this.state.dataSource}
                             initialListSize={10}
-                            renderRow={this._renderRow}
+                            renderRow={this._renderRow.bind(this)}
                             renderSeparator={this._renderSeparator} />
                         : Util.loading
                 }
@@ -100,9 +108,7 @@ export default class BookList extends Component {
         )
     }
     _renderRow(book) {
-        //onPress={this.handleShowDetail.bind(this, book.id)}
-        // <BookItem book={book}/> onPress={this.handleShowDetail.bind(this, book.id)} onPress={() => this.handleShowDetail(book.id)}
-        return <BookItem book={book}/>
+        return <BookItem book={book} onPress={() => this.handleShowDetail(book.id)}/>
     }
     _renderSeparator(sectionID:number, rowID:number) {
         let style = {
