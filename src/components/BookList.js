@@ -34,7 +34,8 @@ export default class BookList extends Component {
         this.setState({hasLoad: false});
         // 请求数据
         let _this = this;
-        let url = ServiceUrl.book_search + "?count=20&q=" + this.state.keywords;
+        // let url = ServiceUrl.book_search.data_utl + "?count=20&q=" + this.state.keywords;
+        let url = ServiceUrl.book_search.test_url;
         let opt = {
             url: url,
             type: 'get',
@@ -100,6 +101,7 @@ export default class BookList extends Component {
     }
     _renderRow(book) {
         //onPress={this.handleShowDetail.bind(this, book.id)}
+        // <BookItem book={book}/> onPress={this.handleShowDetail.bind(this, book.id)} onPress={() => this.handleShowDetail(book.id)}
         return <BookItem book={book}/>
     }
     _renderSeparator(sectionID:number, rowID:number) {

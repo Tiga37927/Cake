@@ -27,23 +27,41 @@ export default class DoubleProject extends Component {
         return (
             <TabNavigator>
                 <TabNavigator.Item
-                    selected={this.state.selectedTab === 'home'}
+                    selected={this.state.selectedTab === 'book'}
                     title="图书"
-                    renderIcon={() => <Text style={{fontFamily: 'iconfont'}}>&#xe70a;</Text>}
-                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont'}}>&#xe709;</Text>}
+                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe6fb;</Text>}
+                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe716;</Text>}
                     badgeText="1"
-                    onPress={() => this.setState({ selectedTab: 'home' })}>
+                    onPress={() => this.setState({ selectedTab: 'book' })}>
                     <Navigation component={BookList}/>
                     {/*<Text>图书</Text>*/}
                 </TabNavigator.Item>
                 <TabNavigator.Item
-                    selected={this.state.selectedTab === 'profile'}
+                    selected={this.state.selectedTab === 'movie'}
                     title="电影"
-                    renderIcon={() => <Text style={{fontFamily: 'iconfont'}}>&#xe715;</Text>}
-                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont'}}>&#xe714;</Text>}
-                    badgeText="55"
-                    onPress={() => this.setState({ selectedTab: 'profile' })}>
+                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe680;</Text>}
+                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe607;</Text>}
+                    badgeText="10"
+                    onPress={() => this.setState({ selectedTab: 'movie' })}>
                     <Text>电影</Text>
+                </TabNavigator.Item>
+                <TabNavigator.Item
+                    selected={this.state.selectedTab === 'music'}
+                    title="音乐"
+                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe680;</Text>}
+                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe607;</Text>}
+                    badgeText="5"
+                    onPress={() => this.setState({ selectedTab: 'music' })}>
+                    <Text>音乐</Text>
+                </TabNavigator.Item>
+                <TabNavigator.Item
+                    selected={this.state.selectedTab === 'center'}
+                    title="个人中心"
+                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe7d5;</Text>}
+                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe7d9;</Text>}
+                    badgeText=""
+                    onPress={() => this.setState({ selectedTab: 'center' })}>
+                    <Text>个人中心</Text>
                 </TabNavigator.Item>
             </TabNavigator>
         )
