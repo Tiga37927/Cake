@@ -1,0 +1,209 @@
+{
+	"count": 5,
+	"start": 0,
+	"total": 5,
+	"musics": [{
+		"rating": {
+			"max": 10,
+			"average": "8.9",
+			"numRaters": 320,
+			"min": 0
+		},
+		"author": [{
+			"name": "时过夏末"
+		}],
+		"alt_title": "",
+		"image": "https://img1.doubanio.com\/spic\/s6810358.jpg",
+		"tags": [{
+			"count": 100,
+			"name": "Post-Rock"
+		}, {
+			"count": 69,
+			"name": "时过夏末"
+		}, {
+			"count": 39,
+			"name": "后摇"
+		}, {
+			"count": 35,
+			"name": "内地"
+		}, {
+			"count": 28,
+			"name": "post-rock"
+		}, {
+			"count": 25,
+			"name": "中国"
+		}, {
+			"count": 13,
+			"name": "大陆"
+		}, {
+			"count": 10,
+			"name": "2009"
+		}],
+		"mobile_link": "https:\/\/m.douban.com\/music\/subject\/6755627\/",
+		"attrs": {
+			"publisher": ["Island Music Productions"],
+			"singer": ["时过夏末"],
+			"version": ["单曲"],
+			"pubdate": ["2009-01-01"],
+			"title": ["倾斜"],
+			"media": ["CD"],
+			"tracks": ["1.倾斜"],
+			"discs": ["1"]
+		},
+		"title": "倾斜",
+		"alt": "https:\/\/music.douban.com\/subject\/6755627\/",
+		"id": "6755627"
+	}, {
+		"rating": {
+			"max": 10,
+			"average": "7.3",
+			"numRaters": 11,
+			"min": 0
+		},
+		"author": [{
+			"name": "邓力文"
+		}, {
+			"name": "李铁军"
+		}, {
+			"name": "马条"
+		}, {
+			"name": "倾斜"
+		}, {
+			"name": "高洁"
+		}, {
+			"name": "李佳川"
+		}],
+		"alt_title": "",
+		"image": "https://img1.doubanio.com\/spic\/s4080988.jpg",
+		"tags": [{
+			"count": 4,
+			"name": "我想听这张唱片"
+		}, {
+			"count": 2,
+			"name": "1"
+		}, {
+			"count": 1,
+			"name": "111111"
+		}, {
+			"count": 1,
+			"name": "很想听"
+		}, {
+			"count": 1,
+			"name": "民谣最他妈娘娘腔"
+		}, {
+			"count": 1,
+			"name": "马条"
+		}],
+		"mobile_link": "https:\/\/m.douban.com\/music\/subject\/4172751\/",
+		"attrs": {
+			"publisher": ["中国唱片总公司"],
+			"singer": ["邓力文", "李铁军", "马条", "倾斜", "高洁", "李佳川"],
+			"pubdate": ["1995"],
+			"title": ["千万条江河汇大海"],
+			"tracks": ["01. 我的故乡 - 邓力文\n02. 等你回家 - 李铁军\n03. 小路 - 马条\n04. 飞向天堂 - 马条\n05. 本能 - 汪勇&倾斜乐队\n06. 伤害 - 高洁\n07. 冬日 - 安然&高洁\n08. 再见 - 邓力文\n09. 空白思想 - 邓力文\n10. 安拉 - 李佳川"],
+			"version": ["选集"]
+		},
+		"title": "千万条江河汇大海",
+		"alt": "https:\/\/music.douban.com\/subject\/4172751\/",
+		"id": "4172751"
+	}, {
+		"rating": {
+			"max": 10,
+			"average": "8.0",
+			"numRaters": 85,
+			"min": 0
+		},
+		"author": [{
+			"name": "林忆莲"
+		}],
+		"alt_title": "",
+		"image": "https://img1.doubanio.com\/spic\/s3204239.jpg",
+		"tags": [{
+			"count": 29,
+			"name": "林忆莲"
+		}, {
+			"count": 13,
+			"name": "香港"
+		}, {
+			"count": 11,
+			"name": "Pop"
+		}, {
+			"count": 7,
+			"name": "粤语"
+		}, {
+			"count": 6,
+			"name": "1990"
+		}, {
+			"count": 3,
+			"name": "流行"
+		}, {
+			"count": 3,
+			"name": "女声"
+		}, {
+			"count": 3,
+			"name": "EP"
+		}],
+		"mobile_link": "https:\/\/m.douban.com\/music\/subject\/3163008\/",
+		"attrs": {
+			"publisher": ["华纳国际音乐股份有限公司"],
+			"singer": ["林忆莲"],
+			"version": ["专辑"],
+			"pubdate": ["1990-12-1"],
+			"title": ["傾斜都市燒燒燒"],
+			"media": ["CD"],
+			"tracks": ["01、「倾斜都市烧烧烧 Mega Mix」\n02、「情人的眼泪」[缺]\n03、「匆匆鬼话鬼匆匆」\n04、「埃及玫瑰 1,000 打」\n05、「倾斜 114' Power Mix」\n06、「无憾 New Mix」\nCD bonus track\n07、「前尘 Karaoke」"],
+			"discs": ["1"]
+		},
+		"title": "傾斜都市燒燒燒",
+		"alt": "https:\/\/music.douban.com\/subject\/3163008\/",
+		"id": "3163008"
+	}, {
+		"rating": {
+			"max": 10,
+			"average": 0,
+			"numRaters": 3,
+			"min": 0
+		},
+		"author": [{
+			"name": "林忆莲"
+		}],
+		"alt_title": "",
+		"image": "https://img3.doubanio.com\/spic\/s27492046.jpg",
+		"tags": [{
+			"count": 1,
+			"name": "林忆莲"
+		}],
+		"mobile_link": "https:\/\/m.douban.com\/music\/subject\/26006914\/",
+		"attrs": {
+			"publisher": ["华纳唱片"],
+			"singer": ["林忆莲"],
+			"version": ["专辑"],
+			"pubdate": ["2014-08-01"],
+			"title": ["都市触觉 III + 倾斜都市烧烧烧"],
+			"media": ["CD"],
+			"tracks": ["CD 1 - 都市触觉 III Faces And Places\n01. 序幕\n02. 倾斜\n03. 你令我性感\n04. 埃及玫瑰\n05. 风笑痴\n06. 微雨扑巴黎\n07. 夜生活\n08. 前尘\n09. 怱怱\n10. 都市心\n11. 再不在乎\nCD 2 - 都市触觉 III 倾斜都市烧烧烧\n01. 倾斜都市烧烧烧 Mega Mix\n02. 情人的眼泪\n03. 匆匆鬼话鬼匆匆\n04. 倾斜 114。Power Mix\n05. 埃及玫瑰 1,000打\n06. 无憾(New Mix)\n07. 前尘(Karaoke)"],
+			"discs": ["2"]
+		},
+		"title": "都市触觉 III + 倾斜都市烧烧烧",
+		"alt": "https:\/\/music.douban.com\/subject\/26006914\/",
+		"id": "26006914"
+	}, {
+		"rating": {
+			"max": 10,
+			"average": 0,
+			"numRaters": 0,
+			"min": 0
+		},
+		"alt_title": "",
+		"image": "https://img3.doubanio.com\/f\/music\/b9adac87c83fa697c241b7cb4107398ff1adfb53\/pics\/music\/default_cover\/spic\/music-default.gif",
+		"tags": [],
+		"mobile_link": "https:\/\/m.douban.com\/music\/subject\/3587973\/",
+		"attrs": {
+			"tracks": ["A：\n\n1、\tDADDY，BROTHER，LOVER，LITTLE BOY（THE ELECTRLC DRLLL SONG）\n\n2、\tALIVE AND KICKING\n\n3、\tQREEN-TINTED SIXTIES MIND\n\n4、\tCDFF-LUCKY THIS TIME\n\nB：\n\n1、\tNEVER SAY NEVER\n\n2、\tJUST TAKE MY HEART\n\n3、\tMY KINDA WOMAN\n\n4、\tTO BE WITH YOU"],
+			"title": ["大人物:倾斜(磁带)"]
+		},
+		"title": "大人物:倾斜(磁带)",
+		"alt": "https:\/\/music.douban.com\/subject\/3587973\/",
+		"id": "3587973"
+	}]
+}
