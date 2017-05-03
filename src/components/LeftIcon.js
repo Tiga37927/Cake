@@ -26,7 +26,7 @@ export default class LeftIcon extends Component {
 const styles = StyleSheet.create({
     go: {
         fontFamily: 'iconfont',
-        fontSize: 15,
+        fontSize: 26,
         marginLeft: 10,
         color: '#fff'
     },

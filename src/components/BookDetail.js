@@ -17,36 +17,38 @@ class BookDetail extends Component {
     constructor() {
         super();
         this.state = {
-            bookData: null // 图书详情
+            bookData: {} // 图书详情
         }
     }
-    componentDidMount() {
+    componentDidMount () {
         this.handleGetBookDetail()
     }
     handleGetBookDetail() {
         let _this = this;
-        let data = require('../data/bookItem.json');
-        this.setState({bookData: data})
-        // let opt = {
-        //     url: ServiceURL.book_detail_id + this.props.bookID,
-        //     type: 'get',
-        //     success: function (data) {
-        //         _this.setState({bookData: data})
-        //     },
-        //     fail: function (error) {
-        //         alert(error)
-        //     }
-        // };
-        // Util.getRequest(opt);
+        let opt = {
+            url: ServiceURL.book_detail_id.data_url + this.props.bookID,
+            type: 'get',
+            success: function (data) {
+                _this.setState({bookData: data})
+            },
+            fail: function (error) {
+                console.log(error);
+                let data = require('../data/bookItem.json');
+                _this.setState({
+                    bookData: data
+                });
+            }
+        };
+        Util.getRequest(opt);
     }
     render() {
         return (
             <ScrollView style={styles.container}>
                 {
                     this.state.bookData ?
-                        <view>
+                        <View>
                             <Header
-                                initObj={{backName: "图书", barTitle: this.state.bookData.title}}
+                                headerContent={{backName: "图书", barTitle: this.state.bookData.title}}
                                 navigator={this.props.navigator}/>
                             <BookItem book={this.state.bookData}/>
                             <View>
@@ -60,8 +62,8 @@ class BookDetail extends Component {
                             <View style={{height: 55}}>
 
                             </View>
-                        </view>
-                        : Util.loading
+                        </View>
+                    : Util.loading
                 }
             </ScrollView>
         )
@@ -86,4 +88,5 @@ const styles = StyleSheet.create({
         color: '#000'
     }
 });
+
 module.exports = BookDetail;

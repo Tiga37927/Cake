@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-export default class BookItem extends Component {
+class BookItem extends Component {
     static propTypes = {
         onPress: PropTypes.func,
         book: PropTypes.object
@@ -79,3 +79,5 @@ const styles = StyleSheet.create({
     }
 
 });
+
+module.exports = BookItem;
