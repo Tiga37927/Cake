@@ -10,8 +10,9 @@ import {
 } from 'react-native';
 
 import TabNavigator from 'react-native-tab-navigator';
-import BookList from './components/BookList';
+import BookList from './containers/BookList';
 import Navigation from './components/Navigation';
+import MovieList from './containers/MovieList';
 
 // 隐藏状态栏
 StatusBar.setHidden(true);
@@ -34,7 +35,6 @@ export default class DoubleProject extends Component {
                     badgeText="1"
                     onPress={() => this.setState({ selectedTab: 'book' })}>
                     <Navigation component={BookList}/>
-                    {/*<Text>图书</Text>*/}
                 </TabNavigator.Item>
                 <TabNavigator.Item
                     selected={this.state.selectedTab === 'movie'}
@@ -43,13 +43,13 @@ export default class DoubleProject extends Component {
                     renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe607;</Text>}
                     badgeText="10"
                     onPress={() => this.setState({ selectedTab: 'movie' })}>
-                    <Text>电影</Text>
+                    <Navigation component={MovieList}/>
                 </TabNavigator.Item>
                 <TabNavigator.Item
                     selected={this.state.selectedTab === 'music'}
                     title="音乐"
-                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe680;</Text>}
-                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe607;</Text>}
+                    renderIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe61d;</Text>}
+                    renderSelectedIcon={() => <Text style={{fontFamily: 'iconfont', fontSize: 18}}>&#xe6ae;</Text>}
                     badgeText="5"
                     onPress={() => this.setState({ selectedTab: 'music' })}>
                     <Text>音乐</Text>

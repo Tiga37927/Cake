@@ -22,7 +22,6 @@ export default class SearchBar extends Component {
     };
     render() {
         return (
-            // onChangeText={(text) => this.props.onChangeText(text)}
             <View style={styles.container}>
                 <View style={styles.inputContainer}>
                     <TextInput style={styles.input} {...this.props}/>

@@ -11,7 +11,7 @@ import {
     ActivityIndicator, // loading
 } from 'react-native';
 
-let Utils = {
+export default Utils = {
     windowSize: {
         width: Dimensions.get("window").width,
         height: Dimensions.get("window").height
@@ -24,10 +24,9 @@ let Utils = {
         .catch((error) => options.fail(error));
     },
     // loading
-    loading: <ActivityIndicator style={{marginTop: 200}}/>,
+    loading: <ActivityIndicator size="large" style={{marginTop: 350}}/>,
 };
 
-module.exports = Utils;
 
 
 

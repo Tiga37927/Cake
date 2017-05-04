@@ -13,7 +13,7 @@ import Util from '../common/utils';
 import Header from './Header';
 import BookItem from './BookItem';
 
-class BookDetail extends Component {
+export default class BookDetail extends Component {
     constructor() {
         super();
         this.state = {
@@ -88,5 +88,3 @@ const styles = StyleSheet.create({
         color: '#000'
     }
 });
-
-module.exports = BookDetail;

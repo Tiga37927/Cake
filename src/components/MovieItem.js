@@ -1,41 +1,46 @@
 /**
- * Created by Administrator on 2017/4/30.
+ * Created by yx on 2017/5/4.
  */
 import React, {Component} from 'react';
 import {
     View,
-    Text,
     Image,
+    Text,
     StyleSheet,
     TouchableOpacity
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-export default class BookItem extends Component {
+
+export default class MoiveItem extends Component {
     static propTypes = {
         onPress: PropTypes.func,
-        book: PropTypes.object
+        movie: PropTypes.object
     };
     render() {
-        let book = this.props.book;
+        let movie = this.props.movie;
         return (
             <TouchableOpacity style={styles.item} {...this.props}>
                 <View style={styles.imageContainer}>
-                    <Image style={styles.image} source={{uri: book.image}}/>
+                    <Image style={styles.image} source={{uri: movie.images.medium}}/>
                 </View>
                 <View style={styles.contentContainer}>
                     <View style={styles.textContainer}>
-                        <Text style={styles.text} numberOfLines={1}>{book.title}</Text>
+                        <Text style={{color: '#000'}}>名称：</Text>
+                        <Text>《{movie.title}》</Text>
                     </View>
                     <View style={styles.textContainer}>
-                        <Text style={styles.publisher_anthor} numberOfLines={1}>{book.publisher}</Text>
+                        <Text style={{color: '#000'}}>标签：</Text>
+                        <Text>{movie.genres.join(' ')}年</Text>
                     </View>
                     <View style={styles.textContainer}>
-                        <Text style={styles.publisher_anthor} numberOfLines={1}>{book.author}</Text>
+                        <Text style={{color: '#000'}}>主演：</Text>
+                        {movie.casts.map((cast, i) =>
+                            <Text style={styles.cast} key={i}>{cast.name}</Text>
+                        )}
                     </View>
-                    <View style={{flexDirection: 'row', flex: 1, alignItems: 'center'}}>
-                        <Text style={styles.price} numberOfLines={1}>{book.price}</Text>
-                        <Text style={styles.pages} numberOfLines={1}>{book.pages}页</Text>
+                    <View style={styles.textContainer}>
+                        <Text>{movie.year}年</Text>
                     </View>
                 </View>
             </TouchableOpacity>
@@ -62,20 +67,11 @@ const styles = StyleSheet.create({
         marginLeft: 15
     },
     textContainer: {
+        flexDirection: 'row',
         flex: 1,
-        justifyContent: 'center'
+        justifyContent: 'flex-start',
     },
-    publisher_anthor: {
-        color: '#a3a3a3',
-        fontSize: 13
-    },
-    price: {
-        color: '#2bb2a3',
-        fontSize: 16
-    },
-    pages: {
-        marginLeft: 10,
-        color: '#a7a0a0'
+    cast: {
+        marginRight: 10
     }
-
 });

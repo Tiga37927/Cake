@@ -4,7 +4,6 @@
 import React, {Component} from 'react';
 import {
     View,
-    Text,
     Navigator
 } from 'react-native';
 export default class Navigation extends Component {
@@ -22,7 +21,6 @@ export default class Navigation extends Component {
                 configureScene={() => Navigator.SceneConfigs.PushFromRight}
                 renderScene={(route, navigator) => {
                     let Component = route.component;
-
                     return (
                         <View style={{flex: 1}}>
                             <Component

@@ -29,6 +29,13 @@ const Douban_APIS = {
     movie_search: {
         test_url: TestURL + 'moives.json',
         data_url: BaseURL + "movie/search"
-    }
+    },
+    /*
+     电影详情
+     */
+    movie_detail_id: {
+        test_url: TestURL + 'moiveItem.json',
+        data_url: BaseURL + 'movie/subject'
+    },
 };
 module.exports = Douban_APIS;
